@@ -1,0 +1,22 @@
+{
+  "name": "screamcast",
+  "version": "1.0.0",
+  "description": "A database of scary and Halloween movies",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nckoller/Screamcast.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nckoller/Screamcast/issues"
+  },
+  "homepage": "https://github.com/nckoller/Screamcast#readme",
+  "dependencies": {
+    "express-handlebars": "^5.1.0"
+  }
+}
