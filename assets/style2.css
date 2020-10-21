@@ -1,0 +1,139 @@
+@import "lesshat";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:900|Creepster);
+
+html,
+body {
+  
+  height: 100%;
+  
+}
+
+button {
+
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  &,
+  & span {
+
+    position: relative;
+
+  }
+
+  span {
+
+    white-space: nowrap;
+    display: block;
+
+  }
+
+  &::moz-focus-inner {
+
+    padding: 0;
+    border: 0;
+
+  }
+
+}
+
+body {
+
+  background-image:
+    linear-gradient(
+      to bottom,
+      fade(#16142C, 90%) 0%,
+      fade(#020111, 90%) 25%,
+      fade(#020111, 90%) 45%,
+      fade(#272A35, 95%) 100%
+    ),
+    url("https://unsplash.imgix.net/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?dpr=2&fit=crop&fm=jpg&h=855&q=50&w=1050");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  
+}
+
+.wrap {
+ 
+  position: relative;
+  top: 10%;
+
+  h1, em {
+    
+    .background-image(
+      linear-gradient(
+        to bottom,
+        #2c3e50 0%,
+        #8e44ad 100%
+      )
+    );
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+ 
+    font: 100 120px Creepster, Helvetica, sans-serif;
+    color: #fff;
+
+    
+  }
+
+  em {
+    
+    .background-image(
+      linear-gradient(
+        to bottom,
+        #2c3e50 0%,
+        #66595c 100%
+      )
+    );
+    
+    font: 900 18px Lato, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-shadow: none;
+    
+  }
+  
+  .button-wrapper {
+    
+    margin-top: 80px;
+    
+    button {
+      
+      span {
+        
+        padding: 30px 50px;
+        background: fade(#fff, 7%);
+        font: 900 18px Lato, Helvetica, sans-serif;
+        text-transform: uppercase;
+        color: fade(#fff, 50%);
+        border: fade(#fff, 50%) 3px solid;
+        .border-radius(4px);
+        .transition(all 300ms ease);
+        
+      }
+      
+      &:hover {
+        
+        span {
+          
+          border-color: #fff;
+          text-shadow: fade(#fff, 50%) 0 0 10px;
+          color: #fff;
+          .box-shadow(
+            fade(#fff, 50%) 0 0 20px
+          );
+          
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+}
+V
