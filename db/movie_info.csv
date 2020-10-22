@@ -1,9 +1,10 @@
+Title,Year,Genre1,Genre2,Halloween,MovieAPIid,Poster
 A Nightmare on Elm Street,1984,Horror,NULL,0,tt0087800,https://m.media-amazon.com/images/M/MV5BNzFjZmM1ODgtMDBkMS00NWFlLTg2YmUtZjc3ZTgxMjE1OTI2L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg
 Alien,1979,Horror,Sci-Fi,0,tt0078748,https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg
 An American Werewolf in London,1981,Comedy,Horror,1,tt0082010,https://m.media-amazon.com/images/M/MV5BZGNmYWQzMGEtNDlhMS00NzEwLTkzMDItMDQ4MjkyMzRkNjFiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
 Army of Darkness,1992,Comedy,Fantasy,0,tt0106308,https://m.media-amazon.com/images/M/MV5BODcyYzM4YTAtNGM5MS00NjU4LTk2Y2ItZjI5NjkzZTk0MmQ1XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg
 Beetlejuice,1988,Comedy,Fantasy,0,tt0094721,https://m.media-amazon.com/images/M/MV5BZDdmNjBlYTctNWU0MC00ODQxLWEzNDQtZGY1NmRhYjNmNDczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
-Carrie	1976,Horror,NULL,0,tt0074285,https://m.media-amazon.com/images/M/MV5BMTlhNmVkZGUtNjdjOC00YWY3LTljZWQtMTY1YWFhNGYwNDQwXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg
+Carrie,	1976,Horror,NULL,0,tt0074285,https://m.media-amazon.com/images/M/MV5BMTlhNmVkZGUtNjdjOC00YWY3LTljZWQtMTY1YWFhNGYwNDQwXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg
 Cemetary Man,1994,Comedy,Horror,1,tt0109592,https://m.media-amazon.com/images/M/MV5BMmFlMDBmNzEtM2QxNS00MzUyLTk1YTAtZTQ3ODM5YThlOTFhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
 Child's Play,1988,Fantasy,Horror,0,tt0094862,https://m.media-amazon.com/images/M/MV5BZGU1MjNiYWYtNGQ5MS00MTgzLTlkYjItZDhhNTdlMTkxZGVlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg
 Children of the Corn,1984,Horror,Thriller,0,tt0087050,https://m.media-amazon.com/images/M/MV5BMDg3OTc2OTQtZDA0My00YTJiLTg3ZTYtOGYwZWM1NWVhZDdiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
@@ -34,11 +35,11 @@ Hubie Halloween,2020,Comedy,Fantasy,1,tt10682266,https://m.media-amazon.com/imag
 Idle Hands,1999,Comedy,Fantasy,1,tt0138510,https://m.media-amazon.com/images/M/MV5BMDVmMjM2MTEtYWU2MS00ZTYxLTk0ZjMtMTdmMzZjNDc3MTIwL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg
 Insidious,2010,Horror,Mystery,0,tt1591095,https://m.media-amazon.com/images/M/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA@@._V1_SX300.jpg
 Interview with the Vampire,1994,Drama,Horror,1,tt0110148,https://m.media-amazon.com/images/M/MV5BYThmYjJhMGItNjlmOC00ZDRiLWEzNjUtZjU4MjA3MzY0MzFmXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg
-IT,1989,	Horror,		0,	tt1396484,	https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_SX300.jpg
-It's the Great Pumpkin Charlie Brown,	1966,	Animation,	Family,	1,	tt0060550,	https://m.media-amazon.com/images/M/MV5BMTQzMDc1NTYzM15BMl5BanBnXkFtZTgwMDQ2NDUzMzE@._V1_SX300.jpg
-Jeepers Creepers,	2001,	Horror,	Mystery,	0,	tt0263488,	https://m.media-amazon.com/images/M/MV5BMTkwNDU0NTE0OV5BMl5BanBnXkFtZTgwNzAzNzQyMTI@._V1_SX300.jpg
-Lady in White,	1988,	Fantasy,	Horror,	0,	tt0095484,	https://m.media-amazon.com/images/M/MV5BZGNmODBhYzAtNTQ1ZS00OGU2LTk5ZjQtMWNiYjAwNWI5YjkyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
-Little Shop of Horrors,	1986,	Comedy,	Horror,	0,	tt0091419,	https://m.media-amazon.com/images/M/MV5BYzUxZDI3MjktZmM4YS00MzdjLWE5MzctMmI4M2ViMDgxMmUzXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg
+IT,1989,Horror,0,tt1396484,https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_SX300.jpg
+It's the Great Pumpkin Charlie Brown,1966,Animation,Family,1,tt0060550,https://m.media-amazon.com/images/M/MV5BMTQzMDc1NTYzM15BMl5BanBnXkFtZTgwMDQ2NDUzMzE@._V1_SX300.jpg
+Jeepers Creepers,2001,Horror,Mystery,0,tt0263488,https://m.media-amazon.com/images/M/MV5BMTkwNDU0NTE0OV5BMl5BanBnXkFtZTgwNzAzNzQyMTI@._V1_SX300.jpg
+Lady in White,1988,Fantasy,Horror,0,,https://m.media-amazon.com/images/M/MV5BZGNmODBhYzAtNTQ1ZS00OGU2LTk5ZjQtMWNiYjAwNWI5YjkyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
+Little Shop of Horrors,1986,	Comedy,	Horror,	0,	tt0091419,	https://m.media-amazon.com/images/M/MV5BYzUxZDI3MjktZmM4YS00MzdjLWE5MzctMmI4M2ViMDgxMmUzXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg
 Near Dark,	1987,	Action,	Crime,	0,	tt0093605,	https://m.media-amazon.com/images/M/MV5BODdkYzVhMmQtYmJhMy00MGMxLTk2ZmEtMmE0YTEwMWNhOTI5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
 Night of the Living Dead,	1968,	Horror,	Thriller,	1,	tt0063350,	https://m.media-amazon.com/images/M/MV5BYzI4NmVhNmItYzAzNC00ZTJmLWExMjAtMjBjN2VjYWVmMDQwXkEyXkFqcGdeQXVyMzAxNjg3MjQ@._V1_SX300.jpg
 Nightmare Before Christmas,	1993,	Animation,	Family,	1,	tt0107688,	https://m.media-amazon.com/images/M/MV5BNWE4OTNiM2ItMjY4Ni00ZTViLWFiZmEtZGEyNGY2ZmNlMzIyXkEyXkFqcGdeQXVyMDU5NDcxNw@@._V1_SX300.jpgg
