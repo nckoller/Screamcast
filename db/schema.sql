@@ -26,6 +26,8 @@ CREATE TABLE User_Reviews (
     text_review VARCHAR(140) NULL,
     spooky_rating DECIMAL(10,2) NOT NULL,
     PRIMARY KEY (id),
-    FOREIGN KEY Movie_Data(id),
-    FOREIGN KEY User_Info(id)
+    Movie_id INT,
+    FOREIGN KEY (Movie_id) REFERENCES Movie_Data(id),
+    User_id INT,
+    FOREIGN KEY (User_id) REFERENCES User_Info(id)
 )
