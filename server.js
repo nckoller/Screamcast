@@ -25,7 +25,7 @@ require('./routes/api-routes.js')(app);
 
 // Set Handlebars
 const expressHandlebars = require('express-handlebars');
-app.engine('handelbars, expressHandlebars({ defaultLayout: 'main' }));
+app.engine('handlebars', expressHandlebars({ defaultLayout: 'main' }));
 app.set('view engine', 'handlbars');
 
 // Syncing our database and logging a message to the user upon success
