@@ -19,7 +19,7 @@ module.exports = function (sequelize, DataTypes) {
   User.prototype.validPassword = function (password) {
     return bcrypt.compareSync(password, this.password);
   };
-  // Before the user is creatd, automatically hash their password.
+  // Before the user is created, automatically hash their password.
   User.addHook('beforeCreate', function (user) {
     user.password = bcrypt.hashSync(
       user.password,
