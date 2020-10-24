@@ -7,22 +7,16 @@
   justify-content: center;
 }
 
-.background::before {
-  content: "";
+.login-page {
   background-color: rgb(10, 10, 10);
-  background-image: url("/public/styles/Screamcast.gif");
+  background-image: url("Screamcast.gif");
   background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
   opacity: 0.9;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-.login-page {
+.container-form {
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
@@ -32,7 +26,7 @@
   left: 800px;
   top: 300px;
   z-index: -1;
-  background: #f;
+  background: ;
   max-width: 350px;
   margin: 0 auto 100px;
   padding: 45px;
@@ -40,7 +34,7 @@
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 .form input {
-  font-family: "Creepster", sans-serif;
+  font-family: "Creepster", cursive;
   outline: 0;
   background: #7644e9;
   width: 100%;
@@ -51,7 +45,7 @@
   font-size: 14px;
 }
 .form button {
-  font-family: "Creepster", sans-serif;
+  font-family: "Creepster", cursive;
   text-transform: uppercase;
   outline: 0;
   background: black;
