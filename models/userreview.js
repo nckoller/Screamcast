@@ -1,6 +1,3 @@
-// const User = require('./user');
-// const Movie = require('./movie');
-
 module.exports = function (sequelize, DataTypes) {
   const UserReview = sequelize.define('UserReview', {
     // text review-num of characters/can be null

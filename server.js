@@ -1,5 +1,6 @@
 // Requiring necessary npm packages
 const express = require('express');
+
 // const session = require('express-session');
 
 // Setting up port and requiring models for syncing
@@ -23,14 +24,16 @@ app.use(express.static('public'));
 require('./routes/htmlRoutes.js')(app);
 require('./routes/apiRoutes.js')(app);
 
-db.User.create({
-    username: "testUser1",
-    password: "testPassword1"
-}).then(function() {
-    console.log("Check the DB");
-}).catch(function(err) {
-    console.log(err, "failure");
-});
+
+// db.User.create({
+//     username: "testUser1",
+//     password: "testPassword1"
+// }).then(function() {
+//     console.log("Check the DB");
+// }).catch(function(err) {
+//     console.log(err, "failure");
+// });
+
 
 // Set Handlebars
 const expressHandlebars = require('express-handlebars');
@@ -38,8 +41,13 @@ app.engine('handlebars', expressHandlebars({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
 // Syncing our database and logging a message to the user upon success
-db.sequelize.sync().then(function() {
-    app.listen(PORT, function() {
-      console.log("==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", PORT, PORT);
-    });
+db.sequelize.sync().then(function () {
+  app.listen(PORT, function () {
+    console.log(
+      '==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.',
+      PORT,
+      PORT
+    );
   });
+});
+

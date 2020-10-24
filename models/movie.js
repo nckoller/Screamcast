@@ -1,6 +1,3 @@
-// const User = require('./user');
-// const UserReview = require('./userreview');
-
 module.exports = function (sequelize, DataTypes) {
   const Movie = sequelize.define('Movie', {
     // Movie Title cannot be null
