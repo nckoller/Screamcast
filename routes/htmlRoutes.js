@@ -1,6 +1,14 @@
 // Requiring path to use relative routes to our HTML files
-const path = require("path");
+const path = require('path');
 
-module.exports = function(app) {
-//  function for when a user selects a movie to get more details
-}
+module.exports = function (app) {
+  // Load index page
+  app.get('/', function (req, res) {
+    res.render('index');
+  });
+  // Load login page
+  app.get('/loginpage', function (req, res) {
+    res.render('loginpage');
+  });
+  // 
+};
