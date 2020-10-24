@@ -24,6 +24,7 @@ app.use(express.static('public'));
 require('./routes/htmlRoutes.js')(app);
 require('./routes/apiRoutes.js')(app);
 
+
 // db.User.create({
 //     username: "testUser1",
 //     password: "testPassword1"
@@ -32,6 +33,7 @@ require('./routes/apiRoutes.js')(app);
 // }).catch(function(err) {
 //     console.log(err, "failure");
 // });
+
 
 // Set Handlebars
 const expressHandlebars = require('express-handlebars');
@@ -48,3 +50,4 @@ db.sequelize.sync().then(function () {
     );
   });
 });
+
