@@ -1,31 +1,37 @@
 <div class="image-left">
-<img src="source" alt="Movie Poster Logo"/>
+  <img src="source" alt="Movie Poster Logo" />
 
-<link rel="stylesheet" type="text/css" href="moviedetailspage.css"/>
-<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet"/>
-
-<div class="table">
-  <table>
-    <tr>
-      <td>Title:</td>
-      <td>{{title}}</td>
-    <tr>
-      <td>Director:</td>
-      <td>{{director}}</td>  
-    <tr>
-      <td>Spooky Rating:</td>
-      <td>{{rating}}</td>  
-    <tr>
-      <td>Genre:</td>
-      <td>{{genre}}</td> 
-    <tr>
-      <td>Plot Summary:</td>
-      <td>{{summary}}</td>   
- </table>
+  <link rel="stylesheet" type="text/css" href="/styles/moviedetailspage.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet" />
+  <div class="movieInfo text-glow">
+    <h1>General Movie Information
+    </h1>
+  </div>
+  <div class="table">
+    <table>
+      <tr>
+        <td>Title:</td>
+        <td>{{title}}</td>
+      <tr>
+        <td>Director:</td>
+        <td>{{director}}</td>
+      <tr>
+        <td>Spooky Rating:</td>
+        <td>{{rating}}</td>
+      <tr>
+        <td>Genre:</td>
+        <td>{{genre}}</td>
+      <tr>
+        <td>Plot Summary:</td>
+        <td>{{summary}}</td>
+    </table>
 
     <form>
-        <div style="height:100px; width:180px; border:1p solid black; font:24px; font-family: Creepster; font-style: cursive; overflow:auto;"> {{user review}} </div>
-        <button>Submit</button>
+      <div
+        style="height:100px; width:180px; border:1p solid black; font:24px; font-family: Creepster; font-style: cursive; overflow:auto;">
+         {{!--There needs to be an input form here, with a text area and a limit on the amount of text they can input  --}}</div>
+      <button type="submit">Submit</button>
     </form>
-</div>
-
+  </div>
+  <script type="text/javascript" async src="/js/moviedetailspage.js"></script>
+  
