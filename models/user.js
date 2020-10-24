@@ -1,5 +1,6 @@
 // Requiring package for password hashing
 const bcrypt = require('bcryptjs');
+// const UserReview = require('./userreview');
 
 module.exports = function (sequelize, DataTypes) {
   const User = sequelize.define('User', {
