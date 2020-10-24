@@ -10,7 +10,7 @@
 .background::before {
   content: "";
   background-color: rgb(10, 10, 10);
-  background-image: url("views/Screamcast.gif");
+  background-image: url("/views/layouts/login.css");
   background-size: cover;
   position: absolute;
   top: 0px;
