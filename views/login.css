@@ -19,7 +19,7 @@
   left: 0px;
   opacity: 0.9;
 }
-// form
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .login-page {
@@ -28,7 +28,7 @@
   margin: auto;
 }
 .form {
-  position: aboslute;
+  position: relative;
   left: 800px;
   top: 300px;
   z-index: -1;
