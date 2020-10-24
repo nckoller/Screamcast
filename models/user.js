@@ -1,5 +1,6 @@
 // Requiring package for password hashing
 const bcrypt = require('bcryptjs');
+// const UserReview = require('./userreview');
 
 module.exports = function (sequelize, DataTypes) {
   const User = sequelize.define('User', {
@@ -15,6 +16,12 @@ module.exports = function (sequelize, DataTypes) {
       allowNull: false,
     },
   });
+
+  //   User hasMany reviews
+  User.associate = function (models) {
+    User.hasMany(models.UserReview);
+  };
+
   // Check if an unhashed password entered by the user can be compared to the hashed password stored in our database
   User.prototype.validPassword = function (password) {
     return bcrypt.compareSync(password, this.password);
