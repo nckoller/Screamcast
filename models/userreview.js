@@ -1,4 +1,5 @@
-const user = require('./user');
+// const User = require('./user');
+// const Movie = require('./movie');
 
 module.exports = function (sequelize, DataTypes) {
   const UserReview = sequelize.define('UserReview', {
