@@ -10,5 +10,8 @@ module.exports = function (app) {
   app.get('/loginpage', function (req, res) {
     res.render('loginpage');
   });
-  // 
+  // Load movieDetailsPage
+  app.get('/moviedetailspage', function (req, res) {
+    res.render('moviedetailspage');
+  });
 };

@@ -5,4 +5,16 @@ const db = require("../models");
 
 module.exports = function(app) {
 
+    // login exisiting user
+    app.post("/api/login", function (req, res) {
+        db.user.findOne({
+            where: {
+                username: req.body.username
+            }
+        }).then(function (dbUser) {
+            if(!dbUser) {
+                return
+            }
+        })
+    })
 }
