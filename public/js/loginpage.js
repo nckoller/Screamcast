@@ -33,7 +33,7 @@ $(document).ready(function () {
     })
       .then(function () {
         // code to redirect the window they're viewing---this should pass in another arg w/ the previous parameter
-        window.location.replace('');
+        window.location.replace('/');
       })
       .catch(function (err) {
         // display some sort of error?
