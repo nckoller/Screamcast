@@ -1,0 +1,21 @@
+{
+    "development": {
+        "username": "root",
+        "password": null,
+        "database": "screamcast_db",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "root",
+        "password": null,
+        "database": "screamcast_db",
+        "host": "localhost",
+        "dialect": "mysql",
+        "logging": false
+    },
+    "production": {
+        "use_env_variable": "screamcast_db",
+        "dialect": "mysql"
+    }
+}
