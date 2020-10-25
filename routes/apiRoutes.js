@@ -19,9 +19,15 @@ module.exports = function(app) {
     // })
 
     // When the user wants to view a list of Spooky Movies
-    // app.get("/api/spooky", function (req, res) {
-    //     db.Movie.//find all movies w/ "Spooky rating" >=5.then(function())
-    // })
+    app.get("/api/spooky", function (req, res) {
+        db.Movie.findAll({
+            where: {
+                [Op.between]: [3,5]
+            }
+        }).then(function (results) {
+            res.json(results)
+        })
+    })
 
     // When the user requests to view Halloween Movies
     app.get("/api/halloween", function (req, res) {
