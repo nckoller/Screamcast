@@ -7,32 +7,33 @@
   justify-content: center;
 }
 
-.background::before {
-  content: "";
+.login-page {
   background-color: rgb(10, 10, 10);
-  background-image: url("/public/styles/Screamcast.gif");
+  background-image: url("Screamcast.gif");
   background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.9;
+  opacity: 1;
+  cursor: pointer;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-.login-page {
-  width: 360px;
+.overlay {
+  position: relative;
+  width: 250px;
+  height: 200px;
+}
+
+.container-form {
+  width: 320px;
   padding: 8% 0 0;
   margin: auto;
 }
 .form {
   position: relative;
-  left: 800px;
+  left: 400px;
   top: 300px;
   z-index: -1;
-  background: #f;
+  background: rgba(237, 128, 13, 0.926);
   max-width: 350px;
   margin: 0 auto 100px;
   padding: 45px;
@@ -40,9 +41,9 @@
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 .form input {
-  font-family: "Creepster", sans-serif;
+  font-family: "Creepster", cursive;
   outline: 0;
-  background: #7644e9;
+  background: #52349a;
   width: 100%;
   border: 0;
   margin: 0 0 15px;
@@ -51,7 +52,7 @@
   font-size: 14px;
 }
 .form button {
-  font-family: "Creepster", sans-serif;
+  font-family: "Creepster", cursive;
   text-transform: uppercase;
   outline: 0;
   background: black;
@@ -67,12 +68,12 @@
 .form button:hover,
 .form button:active,
 .form button:focus {
-  background: #43a047;
+  background: #3da943;
 }
 .form .message {
   margin: 15px 0 0;
-  color: #b3b3b3;
-  font-size: 12px;
+  color: #fffefe;
+  font-size: 14px;
 }
 .form .message a {
   color: #4caf50;
@@ -105,7 +106,7 @@
   color: #1a1a1a;
 }
 .container .info span {
-  color: #4d4d4d;
+  color: #f0ebeb;
   font-size: 12px;
 }
 .container .info span a {

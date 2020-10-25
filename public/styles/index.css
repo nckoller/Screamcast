@@ -9,3 +9,8 @@
   margin: 0 auto;
   display: inline;
 }
+body {
+  margin: auto;
+  max-width: 42em;
+  background-color: #452a79;
+}

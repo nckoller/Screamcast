@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Results</title>
-
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <link rel="stylesheet" type="text/css" href="movie-list.css"/>
-
+    <link rel="stylesheet" type="text/css" href="styles/movie-list.css" />
 </head>
-<body>
 
 <!--results page-->
 <!--IF they click spooky, THEN they will get this result-->
@@ -22,5 +21,20 @@
     {{> }}
      <button>Details</button>
 {{#if}}
+<body>
+    <div class="movie-list-title">
+        <h1>{{#if spooky}} Spooky {{else}} Halloween {{/if}}Movies</h1>
+    </div>
+    <!--results page-->
+
+    <ul>
+        {{#each movies}}
+        <li><a href="/moviedetailspage">"{{dataValues.title}}" {{dataValues.year}}</a></li>
+        {{/each}}
+
+
+    </ul>
+
 </body>
+
 </html>

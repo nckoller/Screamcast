@@ -25,14 +25,14 @@ $(document).ready(function () {
     passwordInput.val('');
   });
 
-  // loginUser does a post to our api/login route, and if successful, redirects them to the previous page
+  // loginUser does a post to our api/login route, and if successful, redirects them to index page
   function loginUser(username, password) {
     $.post('/api/login', {
       username: username,
       password: password,
     })
       .then(function () {
-        // code to redirect the window they're viewing---this should pass in another arg w/ the previous parameter
+        // code to redirect to the index page
         window.location.replace('/');
       })
       .catch(function (err) {
