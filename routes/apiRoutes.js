@@ -42,6 +42,7 @@ module.exports = function (app) {
     });
   });
 
+  //   Movie details
   app.get('/api/movie/:id', function (req, res) {
     db.Movie.findOne({
       where: {
@@ -49,6 +50,25 @@ module.exports = function (app) {
       },
     }).then(function (data) {
       res.json(data);
+    });
+  });
+
+  //   Create a new user review
+  app.post('/api/review/:id', function (req, res) {
+    db.UserReview.create({
+      textReview: req.body.reviewText,
+      spookyRating: 5, //TODO - after moviedetailspage.handlebars is updated, replace this with req.body.spookyRating
+      movieId: req.params.movieId,
+      userId: 1, //TODO - figure this out
+    }).then(function () {
+      db.Movie.findOne({
+        where: {
+          id: req.body.id,
+        },
+      }).then(function (results) {
+        console.log(results);
+        res(200);
+      });
     });
   });
 };
