@@ -6,14 +6,14 @@
   align-items: center;
   justify-content: center;
 }
-
+/* 
 .login-page {
   background-color: rgb(10, 10, 10);
   background-image: url("Screamcast.gif");
   background-size: cover;
   opacity: 1;
   cursor: pointer;
-}
+} */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
@@ -25,20 +25,23 @@
 
 .container-form {
   width: 320px;
-  padding: 8% 0 0;
+  /* padding: 8% 0 0; */
   margin: auto;
+  margin-top: 35%;
 }
 .form {
-  position: relative;
+  position: ;
   left: 400px;
-  top: 300px;
+  top: 500px;
   z-index: -1;
-  background: rgba(237, 128, 13, 0.926);
+  /* background: */
   max-width: 350px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  background-color: rgba(10, 10, 10, 0.5);
+  /* background-opacity: 0.5; */
 }
 .form input {
   font-family: "Creepster", cursive;
@@ -117,11 +120,14 @@
   color: #ef3b3a;
 }
 body {
-  background: #76b852; /* fallback for old browsers */
   background: -webkit-linear-gradient(right, #76b852, #8dc26f);
   background: -moz-linear-gradient(right, #76b852, #8dc26f);
   background: -o-linear-gradient(right, #76b852, #8dc26f);
   background: linear-gradient(to left, #76b852, #8dc26f);
+  background-image: url("Screamcast.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #0f2325; /* fallback for old browsers */
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -130,7 +136,7 @@ body {
   margin: 0;
   padding: 0;
 }
-html,
+/* html,
 body {
   background: #82958f;
-}
+} */
