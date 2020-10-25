@@ -6,65 +6,65 @@
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
             integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
+
 <body>
-<div class="movieInfo text-glow">
+  <div class="movieInfo text-glow">
     <h1>Boo!
     </h1>
   </div>
-    <div class="image-left">
-        <img src="source" alt="Movie Poster Logo"/>
-        <div class="movie details">
-        
-            <div class="table">
-                <table>
-                    <tr>
-                        <td>Title:</td>
-                        <td>{{title}}</td>
-                    <tr>
-                        <td>Director:</td>
-                        <td>{{director}}</td>
-                    <tr>
-                        <td>Spooky Rating:</td>
-                        <td>{{rating}}</td>
-                    <tr>
-                        <td>Genre:</td>
-                        <td>{{genre}}</td>
-                    <tr>
-                        <td>Plot Summary:</td>
-                        <td>{{summary}}</td>
-                </table>
-            </div>
+  <div class="image-left">
+    <img src={{dataValues.posterImg}} alt="Movie Poster" />
+    <div class="movie details">
 
-            <form>
-                <div class="form-group">
-                    <label for="user-review">Leave Your Review:</label>
-                        <textarea class="formcontrol" id="user-review" rows="20" cols="40">
-                        </textarea>
+      <div class="table">
+        <table>
+          <tr>
+            <td>Title:</td>
+            <td>{{dataValues.title}}</td>
+          <tr>
+            <td>Director:</td>
+            <td>{{dataValues.director}}</td>
+          <tr>
+            <td>Spooky Rating:</td>
+            <td>{{dataValues.spookyRating}}</td>
+          <tr>
+            <td>Genre:</td>
+            <td>{{dataValues.genre1}} {{dataValues.genre2}}</td>
+          <tr>
+            <td>Plot Summary:</td>
+            <td>{{dataValues.plot}}</td>
+        </table>
+      </div>
 
-                    <div class="dropdown">Spooky Rating:
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">1 = Not Spooky</button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="rating-1" href="#">1 = Not Spooky</a>
-                                <a class="rating-2" href="#">2 = Somewhat Spooky</a>
-                                <a class="rating-3" href="#">3 = Spooky</a>
-                                <a class="rating-4" href="#">4 = Pretty Spooky</a>
-                                <a class="rating-5" href="#">5 = Very Spooky</a>
-                            </div>
-                    </div>
+      <form action="/api/review/{{dataValues.id}}" method="POST">
+        <div class="form-group">
+          <label for="user-review">Leave Your Review:</label>
+          <textarea class="formcontrol" id="user-review" name="reviewText" rows="20" cols="40"></textarea>
 
-                    <input class="submit" type="submit" value="Submit">
+        <div class="dropdown">Spooky Rating:
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">1 = Not Spooky</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="rating-1" href="#">1 = Not Spooky</a>
+                    <a class="rating-2" href="#">2 = Somewhat Spooky</a>
+                    <a class="rating-3" href="#">3 = Spooky</a>
+                    <a class="rating-4" href="#">4 = Pretty Spooky</a>
+                    <a class="rating-5" href="#">5 = Very Spooky</a>
                 </div>
-            </form>
-
-            <div data-spy="scroll" data-target="#list" data-offset="0" class="scrollspy">
-                <h4 id="review-1">User Review:</h4>
-                <p>{{user-review-1}}</p>
-                <h4 id="review-2">User Review:</h4>
-                <p>{{user-review-2}}</p>
-            </div>
         </div>
-        <script type="text/javascript" async src="/js/moviedetailspage.js"></script>
+          <input class="submit" type="submit" value="Submit">
+          {{!-- TODO: create formcontrol div for spookyRating - please use 'name=spookyRating' --}}
+        </div>
+      </form>
+
+      <div data-spy="scroll" data-target="#list" data-offset="0" class="scrollspy">
+        <h4 id="review-1">User Review:</h4>
+        <p>{{!user-review-1}}</p>
+        <h4 id="review-2">User Review:</h4>
+        <p>{{!user-review-2}}</p>
+      </div>
+    </div>
+    <script type="text/javascript" async src="/js/moviedetailspage.js"></script>
 
 </body>
-</html>
 
+</html>
