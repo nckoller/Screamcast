@@ -1,3 +1,5 @@
+const { Sequelize } = require('.');
+
 module.exports = function (sequelize, DataTypes) {
   const Movie = sequelize.define('Movie', {
     // Movie Title cannot be null
@@ -26,10 +28,18 @@ module.exports = function (sequelize, DataTypes) {
     posterImg: {
       type: DataTypes.STRING,
     },
-    //spookyRating: {
-      //type: DataTypes.DECIMAL(10,2),
-      // allowNull: true,
-    //},
+    spookyRating: {
+      type: DataTypes.DECIMAL(10, 2),
+      allowNull: true,
+    },
+    createdAt: {
+      type: DataTypes.DATE,
+      allowNull: true,
+    },
+    updatedAt: {
+      type: DataTypes.DATE,
+      allowNull: true,
+    },
   });
 
   Movie.associate = function (models) {
