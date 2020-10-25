@@ -9,16 +9,19 @@
 </head>
 
 <body>
+    <div class="movie-list-title">
+        <h1>{{#if spooky}} Spooky {{else}} Halloween {{/if}}Movies</h1>
+    </div>
     <!--results page-->
-    <!--IF they click spooky, THEN they will get this result-->
 
-    {{#if spooky}}
-    <div>oh dang lookit all them spooky movies</div>
-    {{/if}}
-    <!--IF they click halloween, THEN they will get this result-->
-    {{#if halloween}}
-    <div>oh dang lookit all them halloweeny movies</div>
-    {{/if}}
+    <ul>
+        {{#each movies}}
+        <li><a href="/moviedetailspage">"{{dataValues.title}}" {{dataValues.year}}</a></li>
+        {{/each}}
+
+
+    </ul>
+
 </body>
 
 </html>

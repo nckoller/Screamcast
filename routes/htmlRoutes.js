@@ -1,5 +1,7 @@
 // Requiring path to use relative routes to our HTML files
 const path = require('path');
+const db = require('../models');
+
 
 module.exports = function (app) {
   // Load index page
@@ -24,8 +26,22 @@ module.exports = function (app) {
   });
 
   // Load halloween movie list
+  //   app.get('/halloweenmovies', function (req, res) {
+  //     // res.json({spooky: true})
+  //     res.render('movie-list', { halloween: true });
+  //   });
+  // Load halloween movie list
   app.get('/halloweenmovies', function (req, res) {
-    // res.json({spooky: true})
-    res.render('movie-list', { halloween: true });
+    db.Movie.findAll({
+      where: {
+        halloween: 1,
+      },
+    }).then(function (results) {
+      let responseData = {};
+      responseData.movies = results;
+      responseData.halloween = true;
+      console.log(responseData.movies[1].dataValues)
+      res.render('movie-list', responseData);
+    });
   });
 };
