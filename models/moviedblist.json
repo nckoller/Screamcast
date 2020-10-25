@@ -7,6 +7,7 @@
             "halloween": "0",
             "plot": "The monstrous spirit of a slain child murderer seeks revenge by invading the dreams of teenagers whose parents were responsible for his untimely death.",
             "Movie_DB_API_ID": "tt0087800",
+            "spookyRating": "4",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BNzFjZmM1ODgtMDBkMS00NWFlLTg2YmUtZjc3ZTgxMjE1OTI2L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
         },
         {
@@ -17,6 +18,7 @@
             "halloween": "0",
             "plot": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.",
             "Movie_DB_API_ID": "tt0078748",
+            "spookyRating": "3",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
         },
         {
@@ -27,6 +29,7 @@
             "halloween": "1",
             "plot": "\"Two American college students on a walking tour of Britain are attacked by a werewolf that none of the locals will admit exists.",
             "Movie_DB_API_ID": "tt0082010",
+            "spookyRating": "3",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BZGNmYWQzMGEtNDlhMS00NzEwLTkzMDItMDQ4MjkyMzRkNjFiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
         },
         {
@@ -47,6 +50,7 @@
             "halloween": "0",
             "plot": "The spirits of a deceased couple are harassed by an unbearable family that has moved into their home, and hire a malicious spirit to drive them out.",
             "Movie_DB_API_ID": "tt0094721",
+            "spookyRating": "2",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BZDdmNjBlYTctNWU0MC00ODQxLWEzNDQtZGY1NmRhYjNmNDczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
         },
         {
@@ -86,6 +90,7 @@
             "halloween": "0",
             "plot": "A single mother gives her son a much sought-after doll for his birthday, only to discover that it is possessed by the soul of a serial killer",
             "Movie_DB_API_ID": "tt0087050",
+            "spookyRating": "3",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BMDg3OTc2OTQtZDA0My00YTJiLTg3ZTYtOGYwZWM1NWVhZDdiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
         },
         {
@@ -106,6 +111,7 @@
             "halloween": "1",
             "plot": "An adventurous 11-year-old girl finds another world that is a strangely idealized version of her frustrating home, but it has sinister secrets.",
             "Movie_DB_API_ID": "tt0327597",
+            "spookyRating": "4",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg"
         },
         {
@@ -156,6 +162,7 @@
             "halloween": "1",
             "plot": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes.",
             "Movie_DB_API_ID": "tt0246578",
+            "spookyRating": "3",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BZjZlZDlkYTktMmU1My00ZDBiLWFlNjEtYTBhNjVhOTM4ZjJjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
         },
         {
@@ -186,6 +193,7 @@
             "halloween": "0",
             "plot": "A loan officer who evicts an old woman from her home finds herself the recipient of a supernatural curse. Desperate, she turns to a seer to try and save her soul, while evil forces work to push her to a breaking point.",
             "Movie_DB_API_ID": "tt1127180",
+            "spookyRating": "5",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BMTQwNTMyNjc5Ml5BMl5BanBnXkFtZTcwOTI2MTQ0Mg@@._V1_SX300.jpg"
         },
         {
@@ -226,6 +234,7 @@
             "halloween": "1",
             "plot": "A group of camp counselors are stalked and murdered by an unknown assailant while trying to reopen a summer camp which was the site of a child's drowning and a grisly double murder years before.",
             "Movie_DB_API_ID": "tt0080761",
+            "spookyRating": "4",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BNWMxYTYzYWQtNGZmNy00MTg5LTk1N2MtNzQ5NjQxYjQ5NTJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
         },
         {
@@ -336,6 +345,7 @@
             "halloween": "1",
             "plot": "A teenage slacker's right hand becomes possessed with murderous intent.",
             "Movie_DB_API_ID": "tt0138510",
+            "spookyRating": "3",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BMDVmMjM2MTEtYWU2MS00ZTYxLTk0ZjMtMTdmMzZjNDc3MTIwL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
         },
         {
@@ -356,6 +366,7 @@
             "halloween": "1",
             "plot": "A vampire tells his epic life story: love, betrayal, loneliness, and hunger.",
             "Movie_DB_API_ID": "tt0110148",
+            "spookyRating": "2",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BYThmYjJhMGItNjlmOC00ZDRiLWEzNjUtZjU4MjA3MzY0MzFmXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg"
         },
         {
@@ -375,6 +386,7 @@
             "halloween": "1",
             "plot": "The Peanuts gang celebrates Halloween while Linus waits for the Great Pumpkin.",
             "Movie_DB_API_ID": "tt0060550",
+            "spookyRating": "1",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BMTQzMDc1NTYzM15BMl5BanBnXkFtZTgwMDQ2NDUzMzE@._V1_SX300.jpg"
         },
         {
@@ -535,6 +547,7 @@
             "halloween": "0",
             "plot": "Two strangers awaken in a room with no recollection of how they got there, and soon discover they're pawns in a deadly game perpetrated by a notorious serial killer.",
             "Movie_DB_API_ID": "tt0387564",
+            "spookyRating": "4",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BMzQ2ZTBhNmEtZDBmYi00ODU0LTgzZmQtNmMxM2M4NzM1ZjE4XkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg"
         },
         {
@@ -555,6 +568,7 @@
             "halloween": "1",
             "plot": "After an acrimonious break up, the Mystery Inc. gang are individually brought to an island resort to investigate strange goings on.",
             "Movie_DB_API_ID": "tt0267913",
+            "spookyRating": "1",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BMTg4MzMzMTY0OF5BMl5BanBnXkFtZTYwNzM3MTg2._V1_SX300.jpg"
         },
         {
@@ -584,6 +598,7 @@
             "halloween": "0",
             "plot": "Ichabod Crane is sent to Sleepy Hollow to investigate the decapitations of three people, with the culprit being the legendary apparition, The Headless Horseman.",
             "Movie_DB_API_ID": "tt0162661",
+            "spookyRating": "3",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BMTQ4Yjk5ODEtNGFkOS00OTY1LTgwYTYtOTFkNmU2NzBmNGM2XkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_SX300.jpg"
         },
         {
@@ -624,6 +639,7 @@
             "halloween": "1",
             "plot": "Con artists plan to fleece an eccentric family using an accomplice who claims to be their long-lost uncle",
             "Movie_DB_API_ID": "tt0101272",
+            "spookyRating": "2",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BODc1NmY0MDUtNjUzNS00ODdhLWJlN2ItMTgwZjczZjI0MDkyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
         },
         {
@@ -654,6 +670,7 @@
             "halloween": "0",
             "plot": "Three film students vanish after traveling into a Maryland forest to film a documentary on the local Blair Witch legend, leaving only their footage behind.",
             "Movie_DB_API_ID": "tt0185937",
+            "spookyRating": "5",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BNzQ1NDBlNDItMDAyYS00YTI2LTgwMmYtMzAwMzg4NDFlM2ZmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
         },
         {
@@ -684,6 +701,7 @@
             "halloween": "1",
             "plot": "A newcomer to a Catholic prep high school falls in with a trio of outcast teenage girls who practice witchcraft, and they all soon conjure up various spells and curses against those who anger them.",
             "Movie_DB_API_ID": "tt0115963",
+            "spookyRating": "3",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BZTBkMWE1NGItZTgxMi00ZTE0LWIzZjAtNzQ5ZGZlZTQxN2EwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
         },
         {
@@ -702,6 +720,7 @@
             "halloween": "0",
             "plot": "When a 12-year-old girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her.",
             "Movie_DB_API_ID": "tt0070047",
+            "spookyRating": "5",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BYjhmMGMxZDYtMTkyNy00YWVmLTgyYmUtYTU3ZjcwNTBjN2I1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
         },
         {
@@ -712,6 +731,7 @@
             "halloween": "0",
             "plot": "A brilliant but eccentric scientist begins to transform into a giant man/fly hybrid after one of his experiments goes horribly wrong.",
             "Movie_DB_API_ID": "tt0091064",
+            "spookyRating": "2",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BODcxMGMwOGEtMDUxMi00MzE5LTg4YTYtYjk1YjA4MzQxNTNlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
         },
         {
@@ -762,6 +782,7 @@
             "halloween": "0",
             "plot": "A family falls victim to a group of mutated cannibals in a desert far away from civilization.",
             "Movie_DB_API_ID": "tt0454841",
+            "spookyRating": "4",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BMzk0MTg5MzEyOF5BMl5BanBnXkFtZTcwNDUyMzIzMQ@@._V1_SX300.jpg"
         },
         {
@@ -782,6 +803,7 @@
             "halloween": "0",
             "plot": "\"When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
             "Movie_DB_API_ID": "tt1051906",
+            "spookyRating": "2",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BZjFhM2I4ZDYtZWMwNC00NTYzLWE3MDgtNjgxYmM3ZWMxYmVmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
         },
         {
@@ -802,6 +824,7 @@
             "halloween": "0",
             "plot": "After moving to a new town, two brothers discover that the area is a haven for vampires.",
             "Movie_DB_API_ID": "tt0093437",
+            "spookyRating": "3",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BMWEzNmUxZTMtZjY0My00OGNmLWIyNDctODM2YzZjM2YwZWEwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
         },
         {
@@ -822,6 +845,7 @@
             "halloween": "0",
             "plot": "A journalist must investigate a mysterious videotape which seems to cause the death of anyone one week to the day after they view it.",
             "Movie_DB_API_ID": "tt0298130",
+            "spookyRating": "4",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BNDA2NTg2NjE4Ml5BMl5BanBnXkFtZTYwMjYxMDg5._V1_SX300.jpg"
         },
         {
@@ -832,6 +856,7 @@
             "halloween": "0",
             "plot": "A newly-engaged couple have a breakdown in an isolated area and must seek shelter at the bizarre residence of Dr. Frank-n-Furter.",
             "Movie_DB_API_ID": "tt0073629",
+            "spookyRating": "1",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BOGIzYjM3YzMtMjk5ZS00NDY2LTllMjEtNjYwZjhmMDNhMDBkXkEyXkFqcGdeQXVyODUzMjQxMTA@._V1_SX300.jpg"
         },
         {
@@ -852,6 +877,7 @@
             "halloween": "0",
             "plot": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
             "Movie_DB_API_ID": "tt0102926",
+            "spookyRating": "4",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
         },
         {
@@ -881,6 +907,7 @@
             "halloween": "1",
             "plot": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
             "Movie_DB_API_ID": "tt0084787",
+            "spookyRating": "4",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BNGViZWZmM2EtNGYzZi00ZDAyLTk3ODMtNzIyZTBjN2Y1NmM1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
         },
         {
@@ -969,12 +996,13 @@
             "halloween": "1",
             "plot": "An American grandson of the infamous scientist, struggling to prove that his grandfather was not as insane as people believe, is invited to Transylvania, where he discovers the process that reanimates a dead body.",
             "Movie_DB_API_ID": "tt0072431",
+            "spookyRating": "1",
             "posterImg": "https://m.media-amazon.com/images/M/MV5BMTEwNjg2MjM2ODFeQTJeQWpwZ15BbWU4MDQ1MDU5OTEx._V1_SX300.jpg"
         },
         {
             "title": "Zombieland",
             "year": "2009",
-            "genre2": "Comedy",
+            "genre1": "Comedy",
             "halloween": "1",
             "plot": "A shy student trying to reach his family in Ohio, a gun-toting tough guy trying to find the last Twinkie, and a pair of sisters trying to get to an amusement park join forces to travel across a zombie-filled America.",
             "Movie_DB_API_ID": "tt1156398",
@@ -982,4 +1010,3 @@
         }
     ]
 }
-          
