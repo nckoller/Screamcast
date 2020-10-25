@@ -1,16 +1,16 @@
 html {
   padding: 0 1em;
-  font-family: "Courier New", Courier, monospace, sans-serif;
+  font-family: "Creepster", cursive;
   font-size: large;
 }
 
-.movieInfo.text-glow {
+h1.movieInfo.text-glow {
+  font-family: "Creepster", cursive;
   text-shadow: 1px 1px 15px white;
 }
 
 body {
   margin: auto;
-  max-width: 42em;
   background-color: #452a79;
 }
 
@@ -49,4 +49,8 @@ img {
 
 .form-button {
   color: green;
+}
+
+.table {
+  border-color: purple;
 }

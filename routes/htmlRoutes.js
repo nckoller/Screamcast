@@ -14,8 +14,14 @@ module.exports = function (app) {
   });
 
   // Load movieDetailsPage
-  app.get('/moviedetailspage', function (req, res) {
-    res.render('moviedetailspage');
+  app.get('/moviedetailspage/:id', function (req, res) {
+    db.Movie.findOne({
+      where: {
+        id: req.params.id,
+      },
+    }).then(function (results) {
+      res.render('moviedetailspage', results);
+    });
   });
 
   // Load spooky move list
@@ -43,10 +49,4 @@ module.exports = function (app) {
       res.render('movie-list', responseData);
     });
   });
-
-  
-
-  
-
-  
 };
