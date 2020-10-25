@@ -14,4 +14,6 @@ module.exports = function (app) {
   app.get('/moviedetailspage', function (req, res) {
     res.render('moviedetailspage');
   });
+
+  app.get("/halloween")
 };

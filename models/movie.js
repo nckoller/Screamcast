@@ -26,6 +26,10 @@ module.exports = function (sequelize, DataTypes) {
     posterImg: {
       type: DataTypes.STRING,
     },
+    //spookyRating: {
+      //type: DataTypes.DECIMAL(10,2),
+      // allowNull: true,
+    //},
   });
 
   Movie.associate = function (models) {
