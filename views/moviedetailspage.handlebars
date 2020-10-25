@@ -12,26 +12,26 @@
     </h1>
   </div>
     <div class="image-left">
-        <img src="source" alt="Movie Poster Logo"/>
+        <img src={{dataValues.posterImg}} alt="Movie Poster"/>
         <div class="movie details">
         
             <div class="table">
                 <table>
                     <tr>
                         <td>Title:</td>
-                        <td>{{title}}</td>
+                        <td>{{dataValues.title}}</td>
                     <tr>
                         <td>Director:</td>
-                        <td>{{director}}</td>
+                        <td>{{dataValues.director}}</td>
                     <tr>
                         <td>Spooky Rating:</td>
-                        <td>{{rating}}</td>
+                        <td>{{dataValues.spookyRating}}</td>
                     <tr>
                         <td>Genre:</td>
-                        <td>{{genre}}</td>
+                        <td>{{dataValues.genre1}} {{dataValues.genre2}}</td>
                     <tr>
                         <td>Plot Summary:</td>
-                        <td>{{summary}}</td>
+                        <td>{{dataValues.plot}}</td>
                 </table>
             </div>
 
@@ -46,9 +46,9 @@
 
             <div data-spy="scroll" data-target="#list" data-offset="0" class="scrollspy">
                 <h4 id="review-1">User Review:</h4>
-                <p>{{user-review-1}}</p>
+                <p>{{!user-review-1}}</p>
                 <h4 id="review-2">User Review:</h4>
-                <p>{{user-review-2}}</p>
+                <p>{{!user-review-2}}</p>
             </div>
         </div>
         <script type="text/javascript" async src="/js/moviedetailspage.js"></script>
