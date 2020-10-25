@@ -30,7 +30,6 @@ module.exports = function(app) {
                 halloween: 1
             }
         }).then(function (results) {
-            results = "helloworld";
             res.json(results)
         })
     })
