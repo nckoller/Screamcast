@@ -1,8 +1,8 @@
 {
     "development": {
         "username": "root",
-        "password": null,
-        "database": "screamcast_db",
+        "password": "DUmn612Hcd",
+        "database": "screamcast_demo",
         "host": "127.0.0.1",
         "dialect": "mysql"
     },

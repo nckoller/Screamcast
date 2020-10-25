@@ -17,4 +17,31 @@ module.exports = function(app) {
     //         }
     //     })
     // })
+
+    // When the user wants to view a list of Spooky Movies
+    // app.get("/api/spooky", function (req, res) {
+    //     db.Movie.//find all movies w/ "Spooky rating" >=5.then(function())
+    // })
+
+    // When the user requests to view Halloween Movies
+    app.get("/api/halloween", function (req, res) {
+        db.Movie.findAll({
+            where: {
+                halloween: 1
+            }
+        }).then(function (results) {
+            res.json(results)
+        })
+    })
+
+    app.get("/api/movie/:id", function (req, res) {
+        db.Movie.findOne({
+            where: {
+                id: req.params.id
+            }
+        }).then(function (data) {
+            res.json(data)
+        })
+    })
+
 }
