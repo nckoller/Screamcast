@@ -12,6 +12,8 @@ body {
   margin: auto;
   max-width: 42em;
   background-color: #452a79;
+  background-image: url("Scarytree.png");
+  background-position: right;
 }
 
 img {
