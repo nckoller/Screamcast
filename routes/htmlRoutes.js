@@ -2,7 +2,6 @@
 const path = require('path');
 const db = require('../models');
 
-
 module.exports = function (app) {
   // Load index page
   app.get('/', function (req, res) {
@@ -40,8 +39,14 @@ module.exports = function (app) {
       let responseData = {};
       responseData.movies = results;
       responseData.halloween = true;
-      console.log(responseData.movies[1].dataValues)
+      console.log(responseData.movies[1].dataValues);
       res.render('movie-list', responseData);
     });
   });
+
+  
+
+  
+
+  
 };
