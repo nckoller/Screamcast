@@ -1,0 +1,985 @@
+{
+    [
+        {
+            "title": "A Nightmare on Elm Street",
+            "year": "1984",
+            "genre1": "Horror",
+            "halloween": "0",
+            "plot": "The monstrous spirit of a slain child murderer seeks revenge by invading the dreams of teenagers whose parents were responsible for his untimely death.",
+            "Movie_DB_API_ID": "tt0087800",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNzFjZmM1ODgtMDBkMS00NWFlLTg2YmUtZjc3ZTgxMjE1OTI2L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Alien",
+            "year": "1979",
+            "genre1": "Horror",
+            "genre2": "Sci-Fi",
+            "halloween": "0",
+            "plot": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.",
+            "Movie_DB_API_ID": "tt0078748",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+        },
+        {
+            "title": "An American Werewolf in London",
+            "year": "1981",
+            "genre1": "Comedy",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "Two American college students on a walking tour of Britain are attacked by a werewolf that none of the locals will admit exists.",
+            "Movie_DB_API_ID": "tt0082010",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZGNmYWQzMGEtNDlhMS00NzEwLTkzMDItMDQ4MjkyMzRkNjFiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Army of Darkness",
+            "year": "1992",
+            "genre1": "Comedy",
+            "genre2": "Fantasy",
+            "halloween": "0",
+            "plot": "A sardonic hardware store clerk is accidentally transported to 1300 A.D., where he must retrieve the Necronomicon and battle an army of the dead so he can return home.",
+            "Movie_DB_API_ID": "tt0106308",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BODcyYzM4YTAtNGM5MS00NjU4LTk2Y2ItZjI5NjkzZTk0MmQ1XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+        },
+        {
+            "title": "Beetlejuice",
+            "year": "1988",
+            "genre1": "Comedy",
+            "genre2": "Fantasy",
+            "halloween": "0",
+            "plot": "The spirits of a deceased couple are harassed by an unbearable family that has moved into their home, and hire a malicious spirit to drive them out.",
+            "Movie_DB_API_ID": "tt0094721",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZDdmNjBlYTctNWU0MC00ODQxLWEzNDQtZGY1NmRhYjNmNDczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Carrie",
+            "year": "1976",
+            "genre1": "Horror",
+            "halloween": "0",
+            "plot": "Carrie White, a shy, friendless teenage girl who is sheltered by her domineering, religious mother, unleashes her telekinetic powers after being humiliated by her classmates at her senior prom",
+            "Movie_DB_API_ID": "tt0074285",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTlhNmVkZGUtNjdjOC00YWY3LTljZWQtMTY1YWFhNGYwNDQwXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg"
+        },
+        {
+            "title": "Cemetery Man",
+            "year": "1994",
+            "genre1": "Comedy",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "A cemetery man must kill the dead a second time when they become zombies.",
+            "Movie_DB_API_ID": "tt0109592",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMmFlMDBmNzEtM2QxNS00MzUyLTk1YTAtZTQ3ODM5YThlOTFhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Child's Play",
+            "year": "1988",
+            "genre1": "Fantasy",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "A single mother gives her son a much sought-after doll for his birthday, only to discover that it is possessed by the soul of a serial killer.",
+            "Movie_DB_API_ID": "tt0094862",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZGU1MjNiYWYtNGQ5MS00MTgzLTlkYjItZDhhNTdlMTkxZGVlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Children of the Corn",
+            "year": "1984",
+            "genre1": "Horror",
+            "genre2": "Thriller",
+            "halloween": "0",
+            "plot": "A single mother gives her son a much sought-after doll for his birthday, only to discover that it is possessed by the soul of a serial killer",
+            "Movie_DB_API_ID": "tt0087050",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMDg3OTc2OTQtZDA0My00YTJiLTg3ZTYtOGYwZWM1NWVhZDdiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Clue",
+            "year": "1985",
+            "genre1": "Comedy",
+            "genre2": "Crime",
+            "halloween": "0",
+            "plot": "six guests are anonymously invited to a strange mansion for dinner, but after their host is killed, they must cooperate with the staff to identify the murderer as the bodies pile up",
+            "Movie_DB_API_ID": "tt0088930",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BM2VlNTE1ZmMtOTAyNS00ODYwLWFmY2MtZWEzOTE2YjE1NDE2XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+        },
+        {
+            "title": "Coraline",
+            "year": "2009",
+            "genre1": "Animation",
+            "genre2": "Drama",
+            "halloween": "1",
+            "plot": "An adventurous 11-year-old girl finds another world that is a strangely idealized version of her frustrating home, but it has sinister secrets.",
+            "Movie_DB_API_ID": "tt0327597",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Corpse Bride",
+            "year": "2005",
+            "genre1": "Animation",
+            "genre2": "Comedy",
+            "halloween": "1",
+            "plot": "When a shy groom practices his wedding vows in the inadvertent presence of a deceased young woman, she rises from the grave assuming he has married her.",
+            "Movie_DB_API_ID": "tt1142977",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BY2UwYWI3MTktM2MxNC00MjRhLTlkMWEtYTNjMjRkOTIwOTkyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Cursed",
+            "year": "2005",
+            "genre1": "Comedy",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "A werewolf loose in Los Angeles changes the lives of three young adults who, after being mauled by the beast, learn they must kill it in order to avoid becoming werewolves themselves.",
+            "Movie_DB_API_ID": "tt0257516",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMjdhZDk5ZjYtMTQ3Yi00YzM4LThiMDItYzgyNTUwNTI2OGY4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Dark Shadows",
+            "year": "2012",
+            "genre1": "Comedy",
+            "genre2": "Fantasy",
+            "halloween": "1",
+            "plot": "An imprisoned vampire, Barnabas Collins, is set free and returns to his ancestral home, where his dysfunctional descendants are in need of his protection.",
+            "Movie_DB_API_ID": "tt1077368",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMjc0NzAyMzI1MF5BMl5BanBnXkFtZTcwMTE0NDQ1Nw@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Dead Alive",
+            "year": "1992",
+            "genre1": "Action",
+            "genre2": "Comedy",
+            "halloween": "0",
+            "plot": "A young man's mother is bitten by a Sumatran rat-monkey. She gets sick and dies, at which time she comes back to life, killing and eating dogs, nurses, friends, and neighbors.",
+            "Movie_DB_API_ID": "tt0103873",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZTZlZDgxMDktNGIyOC00OGVmLWFkMmYtNWM3MjBmMDUzNTc4XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+        },
+        {
+            "title": "Donnie Darko",
+            "year": "2001",
+            "genre1": "Drama",
+            "genre2": "Mystery",
+            "halloween": "1",
+            "plot": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes.",
+            "Movie_DB_API_ID": "tt0246578",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZjZlZDlkYTktMmU1My00ZDBiLWFlNjEtYTBhNjVhOTM4ZjJjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+        },
+        {
+            "title": "Double Double Toil and Trouble",
+            "year": "1993",
+            "genre1": "Adventure",
+            "genre2": "Comedy",
+            "halloween": "0",
+            "plot": "On Halloween night, two precocious little girls try to save their parents from their nasty old capitalist aunt's greedy clutches. Magic abounds and they meet mysterious new friends along the way",
+            "Movie_DB_API_ID": "tt0106763",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTIzNjcwMDU5NV5BMl5BanBnXkFtZTcwOTYyMjYxMQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Dracula",
+            "year": "1931",
+            "genre1": "Drama",
+            "genre2": "Fantasy",
+            "halloween": "1",
+            "plot": "After a naive real estate agent succumbs to the will of Count Dracula, the two head to London where the vampire sleeps in his coffin by day and searches for potential victims by night.",
+            "Movie_DB_API_ID": "tt0021814",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTYyMWVkYzUtZDMzNy00ZjdkLWEwYWUtNGZkNmQ5M2U5Njg4XkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg"
+        },
+        {
+            "title": "Drag Me to Hell",
+            "year": "2009",
+            "genre1": "Horror",
+            "genre2": "Thriller",
+            "halloween": "0",
+            "plot": "A loan officer who evicts an old woman from her home finds herself the recipient of a supernatural curse. Desperate, she turns to a seer to try and save her soul, while evil forces work to push her to a breaking point.",
+            "Movie_DB_API_ID": "tt1127180",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTQwNTMyNjc5Ml5BMl5BanBnXkFtZTcwOTI2MTQ0Mg@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Elvira: Mistress of the Dark",
+            "year": "1988",
+            "genre1": "Comedy",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "Upon arriving in a small town where she has inherited a rundown mansion, a famous horror hostess battles an evil uncle, and townspeople who want her burned at the stake.",
+            "Movie_DB_API_ID": "tt0095088",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMzFlZGU5ZjQtNTE4Zi00OGNmLTk0MzQtZjBhYzk5OWEyY2Q4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Frankenstein",
+            "year": "1931",
+            "genre1": "Drama",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "Dr. Frankenstein dares to tamper with life and death by creating a human monster out of lifeless body parts.",
+            "Movie_DB_API_ID": "tt0021884",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTQ0Njc1MjM0OF5BMl5BanBnXkFtZTgwNTY2NTUyMjE@._V1_SX300.jpg"
+        },
+        {
+            "title": "Frankenweenie",
+            "year": "2012",
+            "genre1": "Animation",
+            "genre2": "Comedy",
+            "halloween": "1",
+            "plot": "When a boy's beloved dog passes away suddenly, he attempts to bring the animal back to life through a powerful science experiment.",
+            "Movie_DB_API_ID": "tt1142977",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BY2UwYWI3MTktM2MxNC00MjRhLTlkMWEtYTNjMjRkOTIwOTkyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Friday the 13th",
+            "year": "1980",
+            "genre1": "Horror",
+            "genre2": "Mystery",
+            "halloween": "1",
+            "plot": "A group of camp counselors are stalked and murdered by an unknown assailant while trying to reopen a summer camp which was the site of a child's drowning and a grisly double murder years before.",
+            "Movie_DB_API_ID": "tt0080761",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNWMxYTYzYWQtNGZmNy00MTg5LTk1N2MtNzQ5NjQxYjQ5NTJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Fright Night",
+            "year": "1985",
+            "genre1": "Comedy",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "When a nice new neighbor moves in next door, Charley discovers that he is an ancient vampire who preys on the community. Can he save his neighborhood from the creature with the help of the famous \\\"vampire killer\\\", Peter Vincent?",
+            "Movie_DB_API_ID": "tt1438176",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTU2MDc0NDY0M15BMl5BanBnXkFtZTcwOTgzMTYyNQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "From Beyond",
+            "year": "1986",
+            "genre1": "Horror",
+            "genre2": "Sci-Fi",
+            "halloween": "1",
+            "plot": "A group of scientists have developed the Resonator, a machine which allows whoever is within range to see beyond normal perceptible reality. But when the experiment succeeds, they are immediately attacked by terrible life forms.",
+            "Movie_DB_API_ID": "tt0091083",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BYjc3ZjQ4YWQtNGFlOS00YmZiLTllZDctYTM3MDNmMTY4N2VjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Ghostbusters",
+            "year": "1984",
+            "genre1": "Action",
+            "genre2": "Comedy",
+            "halloween": "0",
+            "plot": "Three former parapsychology professors set up shop as a unique ghost removal service.",
+            "Movie_DB_API_ID": "tt0087332",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTkxMjYyNzgwMl5BMl5BanBnXkFtZTgwMTE3MjYyMTE@._V1_SX300.jpg"
+        },
+        {
+            "title": "Halloween",
+            "year": "1978",
+            "genre1": "Horror",
+            "genre2": "Thriller",
+            "halloween": "1",
+            "plot": "Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.",
+            "Movie_DB_API_ID": "tt0077651",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNzk1OGU2NmMtNTdhZC00NjdlLWE5YTMtZTQ0MGExZTQzOGQyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "HalloweenTown",
+            "year": "1998",
+            "genre1": "Adventure",
+            "genre2": "Comedy",
+            "halloween": "1",
+            "plot": "After learning she is a witch, a girl helps save a town full of other supernatural creatures.",
+            "Movie_DB_API_ID": "tt0173886",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BOTAyYjQ3NjctNGMzNi00YThkLThmYzUtZDViYWZkMDA2YTMyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjAwMjc0NjQ@._V1_SX300.jpg"
+        },
+        {
+            "title": "Hellraiser",
+            "year": "1978",
+            "genre1": "Horror",
+            "genre2": "Thriller",
+            "halloween": "1",
+            "plot": "An unfaithful wife encounters the zombie of her dead lover; the demonic cenobites are pursuing him after he escaped their sadomasochistic underworld.",
+            "Movie_DB_API_ID": "tt0093177",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTkyNzc4NjkwNV5BMl5BanBnXkFtZTgwNzI2Mjc1MDE@._V1_SX300.jpg"
+        },
+        {
+            "title": "Hocus Pocus",
+            "year": "1993",
+            "genre1": "Comedy",
+            "genre2": "Family",
+            "halloween": "1",
+            "plot": "A curious youngster moves to Salem, where he struggles to fit in before awakening a trio of diabolical witches that were executed in the 17th century.",
+            "Movie_DB_API_ID": "tt0107120",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMWUxNWI0YTYtY2RiZS00ZjNmLTg4ZGUtNDI0Mzk4NmQ5NWE5XkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_SX300.jpg"
+        },
+        {
+            "title": "Hotel Transylvania",
+            "year": "2012",
+            "genre1": "Animation",
+            "genre2": "Comedy",
+            "halloween": "1",
+            "plot": "Dracula, who operates a high-end resort away from the human world, goes into overprotective mode when a boy discovers the resort and falls for the count's teenaged daughter",
+            "Movie_DB_API_ID": "tt0837562",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTM3NjQyODI3M15BMl5BanBnXkFtZTcwMDM4NjM0OA@@._V1_SX300.jpg"
+        },
+        {
+            "title": "House on Haunted Hill",
+            "year": "1959",
+            "genre1": "Crime",
+            "genre2": "Fantasy",
+            "halloween": "1",
+            "plot": "An amusement park mogul offers a group of diverse people $1,000,000 to spend the night in a haunted house with a horrifying past.",
+            "Movie_DB_API_ID": "tt0185371",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNzUwYWQzZDQtMDQ0Mi00NjFlLTgzNjAtNTFhZmZhNWY4NGEzL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Hubie Halloween",
+            "year": "2020",
+            "genre1": "Comedy",
+            "genre2": "Fantasy",
+            "halloween": "1",
+            "plot": "Despite his devotion to his hometown of Salem (and its Halloween celebration), Hubie Dubois is a figure of mockery for kids and adults alike. But this year, something is going bump in the night, and it's up to Hubie to save Halloween.",
+            "Movie_DB_API_ID": "tt10682266",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTE0N2EyMzgtMWJhZS00ZWNmLThjZmQtMjcxYTk1NTJiMGVkXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_SX300.jpg"
+        },
+        {
+            "title": "Idle Hands",
+            "year": "1999",
+            "genre1": "Comedy",
+            "genre2": "Fantasy",
+            "halloween": "1",
+            "plot": "A teenage slacker's right hand becomes possessed with murderous intent.",
+            "Movie_DB_API_ID": "tt0138510",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMDVmMjM2MTEtYWU2MS00ZTYxLTk0ZjMtMTdmMzZjNDc3MTIwL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Insidious",
+            "year": "2010",
+            "genre1": "Horror",
+            "genre2": "Mystery",
+            "halloween": "0",
+            "plot": "A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further.",
+            "Movie_DB_API_ID": "tt1591095",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Interview with the Vampire",
+            "year": "1994",
+            "genre1": "Drama",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "A vampire tells his epic life story: love, betrayal, loneliness, and hunger.",
+            "Movie_DB_API_ID": "tt0110148",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BYThmYjJhMGItNjlmOC00ZDRiLWEzNjUtZjU4MjA3MzY0MzFmXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg"
+        },
+        {
+            "title": "IT",
+            "year": "1989",
+            "genre1": "Horror",
+            "halloween": "0",
+            "plot": "In the summer of 1989, a group of bullied kids band together to destroy a shape-shifting monster, which disguises itself as a clown and preys on the children of Derry, their small Maine town.",
+            "Movie_DB_API_ID": "tt1396484",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_SX300.jpg"
+        },
+        {
+            "title": "It's the Great Pumpkin Charlie Brown",
+            "year": "1966",
+            "genre1": "Animation",
+            "genre2": "Family",
+            "halloween": "1",
+            "plot": "The Peanuts gang celebrates Halloween while Linus waits for the Great Pumpkin.",
+            "Movie_DB_API_ID": "tt0060550",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTQzMDc1NTYzM15BMl5BanBnXkFtZTgwMDQ2NDUzMzE@._V1_SX300.jpg"
+        },
+        {
+            "title": "Jeepers Creepers",
+            "year": "2001",
+            "genre1": "Horror",
+            "genre2": "Mystery",
+            "halloween": "0",
+            "plot": "A brother and sister driving home through isolated countryside for spring break encounter a flesh-eating creature which is in the midst of its ritualistic eating spree.",
+            "Movie_DB_API_ID": "tt0263488",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTkwNDU0NTE0OV5BMl5BanBnXkFtZTgwNzAzNzQyMTI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Lady in White",
+            "year": "1988",
+            "genre1": "Fantasy",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "An author tells the story of how, as a young boy growing up in a 1960s small town, he was haunted after witnessing the murder of a little girl.",
+            "Movie_DB_API_ID": "tt0095484",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZGNmODBhYzAtNTQ1ZS00OGU2LTk5ZjQtMWNiYjAwNWI5YjkyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Little Shop of Horrors",
+            "year": "1986",
+            "genre1": "Comedy",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "A nerdy florist finds his chance for success and romance with the help of a giant man-eating plant who demands to be fed.",
+            "Movie_DB_API_ID": "tt0091419",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BYzUxZDI3MjktZmM4YS00MzdjLWE5MzctMmI4M2ViMDgxMmUzXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Near Dark",
+            "year": "1987",
+            "genre1": "Action",
+            "genre2": "Crime",
+            "halloween": "0",
+            "plot": "A small-town farmer's son reluctantly joins a traveling group of vampires after he is bitten by a beautiful drifter.",
+            "Movie_DB_API_ID": "tt0093605",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BODdkYzVhMmQtYmJhMy00MGMxLTk2ZmEtMmE0YTEwMWNhOTI5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Night of the Living Dead",
+            "year": "1968",
+            "genre1": "Horror",
+            "genre2": "Thriller",
+            "halloween": "1",
+            "plot": "A ragtag group of Pennsylvanians barricade themselves in an old farmhouse to remain safe from a bloodthirsty, flesh-eating breed of monsters who are ravaging the East Coast of the United States.",
+            "Movie_DB_API_ID": "tt0063350",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BYzI4NmVhNmItYzAzNC00ZTJmLWExMjAtMjBjN2VjYWVmMDQwXkEyXkFqcGdeQXVyMzAxNjg3MjQ@._V1_SX300.jpg"
+        },
+        {
+            "title": "Nightmare Before Christmas",
+            "year": "1993",
+            "genre1": "Animation",
+            "genre2": "Family",
+            "halloween": "1",
+            "plot": "Jack Skellington, king of Halloween Town, discovers Christmas Town, but his attempts to bring Christmas to his home causes confusion.",
+            "Movie_DB_API_ID": "tt0107688",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNWE4OTNiM2ItMjY4Ni00ZTViLWFiZmEtZGEyNGY2ZmNlMzIyXkEyXkFqcGdeQXVyMDU5NDcxNw@@._V1_SX300.jpgg"
+        },
+        {
+            "title": "Nosferatu",
+            "year": "1922",
+            "genre1": "Fantasy",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "Vampire Count Orlok expresses interest in a new residence and real estate agent Hutter's wife.",
+            "Movie_DB_API_ID": "tt0013442",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTAxYjEyMTctZTg3Ni00MGZmLWIxMmMtOGM2NTFiY2U3MmExXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+        },
+        {
+            "title": "Paranorman",
+            "year": "2012",
+            "genre1": "Animation",
+            "genre2": "Adventure",
+            "halloween": "1",
+            "plot": "A misunderstood boy takes on ghosts, zombies and grown-ups to save his town from a centuries-old curse.",
+            "Movie_DB_API_ID": "tt1623288",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMjA1OTU1NDM3N15BMl5BanBnXkFtZTcwMjYxNTg0Nw@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Pet Sematary",
+            "year": "1989",
+            "genre1": "Fantasy",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "After tragedy strikes, a grieving father discovers an ancient burial ground behind his home with the power to raise the dead.",
+            "Movie_DB_API_ID": "tt0098084",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BYjBlNTBhYWQtMzg5Yi00NDA2LWJmMjYtZmM0ODhiYzkwYmY5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Pit and the Pendulum",
+            "year": "1961",
+            "genre1": "Drama",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "In the sixteenth century, Francis Barnard travels to Spain to clarify the strange circumstances of his sister's death after she had married the son of a cruel Spanish Inquisitor.",
+            "Movie_DB_API_ID": "tt0055304",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZGY1ODM0Y2EtYTBlNy00ZTQ5LWI5MzQtZTY2NzllYTM4ZTRlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Poltergeist",
+            "year": "2015",
+            "genre1": "Horror",
+            "genre2": "Thriller",
+            "halloween": "0",
+            "plot": "A family's home is haunted by a host of demonic ghosts.",
+            "Movie_DB_API_ID": "tt0084516",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNzliZmRlYTctYmNkYS00NzE5LWI1OWQtMTRiODY5MDMwMTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Psycho",
+            "year": "1960",
+            "genre1": "Horror",
+            "genre2": "Mystery",
+            "halloween": "1",
+            "plot": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother.",
+            "Movie_DB_API_ID": "tt0054215",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWUxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+        },
+        {
+            "title": "Pumpkinhead",
+            "year": "1988",
+            "genre1": "Fantasy",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "After a tragic accident, a man conjures up a towering, vengeful demon called Pumpkinhead to destroy a group of unsuspecting teenagers.",
+            "Movie_DB_API_ID": "tt0095925",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTQ0YTQ2ZTUtNGFkOC00YzI2LTkwNDktN2Y0YjI4NGVjMDM3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Re-Animator",
+            "year": "1985",
+            "genre1": "Comedy",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "After an odd new medical student arrives on campus, a dedicated local and his girlfriend become involved in bizarre experiments centering around the re-animation of dead tissue.",
+            "Movie_DB_API_ID": "tt0089885",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNDRjNjRlNmYtZGVkOS00ODA1LWFmMTEtZmY1MWY5ZGM5OWUxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Rosemary's Baby",
+            "year": "1968",
+            "genre1": "Drama",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "A young couple trying for a baby move into a fancy apartment surrounded by peculiar neighbors.",
+            "Movie_DB_API_ID": "tt0063522",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZmEwZGU2NzctYzlmNi00MGJkLWE3N2MtYjBlN2ZhMGJkZTZiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Saw",
+            "year": "2004",
+            "genre1": "Horror",
+            "genre2": "Mystery",
+            "halloween": "0",
+            "plot": "Two strangers awaken in a room with no recollection of how they got there, and soon discover they're pawns in a deadly game perpetrated by a notorious serial killer.",
+            "Movie_DB_API_ID": "tt0387564",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMzQ2ZTBhNmEtZDBmYi00ODU0LTgzZmQtNmMxM2M4NzM1ZjE4XkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg"
+        },
+        {
+            "title": "Scary Stories to Tell in the Dark",
+            "year": "2019",
+            "genre1": "Adventure",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "On Halloween 1968, Stella and her two friends meet a mysterious drifter, Ramón, and uncover a sinister notebook of stories.",
+            "Movie_DB_API_ID": "tt3387520",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMmI1MGE0ODMtYWRlZC00ZDUxLWIyNGItYjgyNzhhMTRlOTI2XkEyXkFqcGdeQXVyOTQ5MTIwMjM@._V1_SX300.jpg"
+        },
+        {
+            "title": "Scooby-Doo",
+            "year": "2002",
+            "genre1": "Adventure",
+            "genre2": "Comedy",
+            "halloween": "1",
+            "plot": "After an acrimonious break up, the Mystery Inc. gang are individually brought to an island resort to investigate strange goings on.",
+            "Movie_DB_API_ID": "tt0267913",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTg4MzMzMTY0OF5BMl5BanBnXkFtZTYwNzM3MTg2._V1_SX300.jpg"
+        },
+        {
+            "title": "Scream",
+            "year": "1996",
+            "genre1": "Horror",
+            "genre2": "Mystery",
+            "halloween": "1",
+            "plot": "A year after the murder of her mother, a teenage girl is terrorized by a new killer, who targets the girl and her friends by using horror films as part of a deadly game.",
+            "Movie_DB_API_ID": "tt0117571",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMjA2NjU5MTg5OF5BMl5BanBnXkFtZTgwOTkyMzQxMDE@._V1_SX300.jpg"
+        },
+        {
+            "title": "Silent Hill",
+            "year": "2006",
+            "genre1": "Horror",
+            "halloween": "0",
+            "plot": "A woman, Rose, goes in search for her adopted daughter within the confines of a strange, desolate town called Silent Hill.",
+            "Movie_DB_API_ID": "tt0384537",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BOWQzNTU3NGUtNDAxMi00ZjFjLTkyYWUtYjgwZDJiMDljZWY4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Sleepy Hollow",
+            "year": "1999",
+            "genre1": "Fantasy",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "Ichabod Crane is sent to Sleepy Hollow to investigate the decapitations of three people, with the culprit being the legendary apparition, The Headless Horseman.",
+            "Movie_DB_API_ID": "tt0162661",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTQ4Yjk5ODEtNGFkOS00OTY1LTgwYTYtOTFkNmU2NzBmNGM2XkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_SX300.jpg"
+        },
+        {
+            "title": "Something Wicked This Way Comes",
+            "year": "1983",
+            "genre1": "Fantasy",
+            "genre2": "Fantasy",
+            "halloween": "0",
+            "plot": "In a small American town, a diabolical circus and its demonic proprietor prey on the townsfolk.",
+            "Movie_DB_API_ID": "tt0086336",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZjAwNWM2ZjItMTgwYi00YjMzLTkyZjEtYTU2YjFiODkzMjA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Spooky Buddies",
+            "year": "2011",
+            "genre1": "Family",
+            "genre2": "Fantasy",
+            "halloween": "1",
+            "plot": "The puppies go on a spooky adventure through a haunted mansion.",
+            "Movie_DB_API_ID": "tt1792131",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTkxNzkyNjM3MV5BMl5BanBnXkFtZTcwNTY4NzgxNQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Tales of Halloween",
+            "year": "2015",
+            "genre1": "Comedy",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "Ten stories are woven together by their shared theme of Halloween night in an American suburb, where ghouls, imps, aliens and axe murderers appear for one night only to terrorize unsuspecting residents.",
+            "Movie_DB_API_ID": "tt4163020",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMjQwODQ1MTM1MF5BMl5BanBnXkFtZTgwODUwNzY5NjE@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Addams Family",
+            "year": "1991",
+            "genre1": "Comedy",
+            "genre2": "Fantasy",
+            "halloween": "1",
+            "plot": "Con artists plan to fleece an eccentric family using an accomplice who claims to be their long-lost uncle",
+            "Movie_DB_API_ID": "tt0101272",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BODc1NmY0MDUtNjUzNS00ODdhLWJlN2ItMTgwZjczZjI0MDkyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Autopsy of Jane Doe",
+            "year": "2016",
+            "genre1": "Horror",
+            "genre2": "Mystery",
+            "halloween": "0",
+            "plot": "A father and son, both coroners, are pulled into a complex mystery while attempting to identify the body of a young woman, who was apparently harboring dark secrets.",
+            "Movie_DB_API_ID": "tt3289956",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMjA2MTEzMzkzM15BMl5BanBnXkFtZTgwMjM2MTM5MDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Birds",
+            "year": "1963",
+            "genre1": "Drama",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "A wealthy San Francisco socialite pursues a potential boyfriend to a small Northern California town that slowly takes a turn for the bizarre when birds of all kinds suddenly begin to attack people.",
+            "Movie_DB_API_ID": "tt0056869",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTAxNDA1ODc5MDleQTJeQWpwZ15BbWU4MDg2MDA4OTEx._V1_SX300.jpg"
+        },
+        {
+            "title": "The Blair Witch Project",
+            "year": "1999",
+            "genre1": "Horror",
+            "genre2": "Mystery",
+            "halloween": "0",
+            "plot": "Three film students vanish after traveling into a Maryland forest to film a documentary on the local Blair Witch legend, leaving only their footage behind.",
+            "Movie_DB_API_ID": "tt0185937",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNzQ1NDBlNDItMDAyYS00YTI2LTgwMmYtMzAwMzg4NDFlM2ZmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Cabinet of Dr. Caligari",
+            "year": "1920",
+            "genre1": "Fantasy",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "Hypnotist Dr. Caligari uses a somnambulist, Cesare, to commit murders.",
+            "Movie_DB_API_ID": "tt0010323",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNWJiNGJiMTEtMGM3OC00ZWNlLTgwZTgtMzdhNTRiZjk5MTQ1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Conjuring",
+            "year": "2013",
+            "genre1": "Horror",
+            "genre2": "Mystery",
+            "halloween": "0",
+            "plot": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+            "Movie_DB_API_ID": "tt1457767",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Craft",
+            "year": "1996",
+            "genre1": "Drama",
+            "genre2": "Fantasy",
+            "halloween": "1",
+            "plot": "A newcomer to a Catholic prep high school falls in with a trio of outcast teenage girls who practice witchcraft, and they all soon conjure up various spells and curses against those who anger them.",
+            "Movie_DB_API_ID": "tt0115963",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZTBkMWE1NGItZTgxMi00ZTE0LWIzZjAtNzQ5ZGZlZTQxN2EwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Evil Dead",
+            "year": "1981",
+            "genre1": "Horror",
+            "halloween": "0",
+            "plot": "Five friends travel to a cabin in the woods, where they unknowingly release flesh-possessing demons.",
+            "Movie_DB_API_ID": "tt0083907",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BODc2MmVjZmUtNjAzMS00MDNiLWIyM2YtOGEzMjg0YjRhMzRmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Exorcist",
+            "year": "1973",
+            "genre1": "Horror",
+            "halloween": "0",
+            "plot": "When a 12-year-old girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her.",
+            "Movie_DB_API_ID": "tt0070047",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BYjhmMGMxZDYtMTkyNy00YWVmLTgyYmUtYTU3ZjcwNTBjN2I1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Fly",
+            "year": "1986",
+            "genre1": "Drama",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "A brilliant but eccentric scientist begins to transform into a giant man/fly hybrid after one of his experiments goes horribly wrong.",
+            "Movie_DB_API_ID": "tt0091064",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BODcxMGMwOGEtMDUxMi00MzE5LTg4YTYtYjk1YjA4MzQxNTNlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Frighteners",
+            "year": "1996",
+            "genre1": "Comedy",
+            "genre2": "Fantasy",
+            "halloween": "1",
+            "plot": "After a tragic car accident that kills his wife, a man discovers he can communicate with the dead to con people. However, when a demonic spirit appears, he may be the only one who can stop it from killing the living and the dead.",
+            "Movie_DB_API_ID": "tt0116365",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNGZlN2Q2NmYtODdjNi00NjJlLWI5NzYtN2Y5NjIzYWUxOWU5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Haunted Mansion",
+            "year": "2003",
+            "genre1": "Comedy",
+            "genre2": "Family",
+            "halloween": "1",
+            "plot": "A realtor and his wife and children are summoned to a mansion, which they soon discover is haunted, and while they attempt to escape, he learns an important lesson about the family he has neglected.",
+            "Movie_DB_API_ID": "tt0338094",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTA3NDUwNzAxNzZeQTJeQWpwZ15BbWU3MDQyMTUwMDE@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Haunting of Hill House",
+            "year": "2018",
+            "genre1": "Drama",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "Flashing between past and present, a fractured family confronts haunting memories of their old home and the terrifying events that drove them from it.",
+            "Movie_DB_API_ID": "tt6763664",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTU4NzA4MDEwNF5BMl5BanBnXkFtZTgwMTQxODYzNjM@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Haunting of Hill House",
+            "year": "1963",
+            "genre1": "Drama",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "Flashing between past and present, a fractured family confronts haunting memories of their old home and the terrifying events that drove them from it",
+            "Movie_DB_API_ID": "tt6763664",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTU4NzA4MDEwNF5BMl5BanBnXkFtZTgwMTQxODYzNjM@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Hills Have Eyes",
+            "year": "1977",
+            "genre1": "Horror",
+            "genre2": "Thriller",
+            "halloween": "0",
+            "plot": "A family falls victim to a group of mutated cannibals in a desert far away from civilization.",
+            "Movie_DB_API_ID": "tt0454841",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMzk0MTg5MzEyOF5BMl5BanBnXkFtZTcwNDUyMzIzMQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Howling",
+            "year": "1981",
+            "genre1": "Horror",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "After a bizarre and near deadly encounter with a serial killer, a television newswoman is sent to a remote mountain resort whose residents may not be what they seem.",
+            "Movie_DB_API_ID": "tt0082533",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZTcwZmIyNjAtMWM4Yy00YzE1LTk5YzQtNjVlY2IxNzMwNzc2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Invisible Man",
+            "year": "1933",
+            "genre1": "Horror",
+            "genre2": "Mystery",
+            "halloween": "0",
+            "plot": "\"When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
+            "Movie_DB_API_ID": "tt1051906",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZjFhM2I4ZDYtZWMwNC00NTYzLWE3MDgtNjgxYmM3ZWMxYmVmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Little Vampire",
+            "year": "2000",
+            "genre1": "Adventure",
+            "genre2": "Comedy",
+            "halloween": "0",
+            "plot": "A lonely American boy living in Scotland makes a new best friend, a fellow nine year-old who happens to be a vampire.",
+            "Movie_DB_API_ID": "tt0192255",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BOTU4NDQ3NzY1NV5BMl5BanBnXkFtZTYwMTQ3NTk2._V1_SX300.jpg"
+        },
+        {
+            "title": "The Lost Boys",
+            "year": "1987",
+            "genre1": "Comedy",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "After moving to a new town, two brothers discover that the area is a haven for vampires.",
+            "Movie_DB_API_ID": "tt0093437",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMWEzNmUxZTMtZjY0My00OGNmLWIyNDctODM2YzZjM2YwZWEwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Prince of Darkness",
+            "year": "1987",
+            "genre1": "Short",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "In this picture some very remarkable effects are obtained by the reversal of the motion of the negative. A man comes home, somewhat under the influence of liquor, and starts to remove his ...",
+            "Movie_DB_API_ID": "tt0000406",
+            "posterImg": "null"
+        },
+        {
+            "title": "The Ring",
+            "year": "2002",
+            "genre1": "Horror",
+            "genre2": "Mystery",
+            "halloween": "0",
+            "plot": "A journalist must investigate a mysterious videotape which seems to cause the death of anyone one week to the day after they view it.",
+            "Movie_DB_API_ID": "tt0298130",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNDA2NTg2NjE4Ml5BMl5BanBnXkFtZTYwMjYxMDg5._V1_SX300.jpg"
+        },
+        {
+            "title": "The Rocky Horror Picture Show",
+            "year": "1975",
+            "genre1": "Comedy",
+            "genre2": "Musical",
+            "halloween": "0",
+            "plot": "A newly-engaged couple have a breakdown in an isolated area and must seek shelter at the bizarre residence of Dr. Frank-n-Furter.",
+            "Movie_DB_API_ID": "tt0073629",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BOGIzYjM3YzMtMjk5ZS00NDY2LTllMjEtNjYwZjhmMDNhMDBkXkEyXkFqcGdeQXVyODUzMjQxMTA@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Shining",
+            "year": "1980",
+            "genre1": "Drama",
+            "genre2": "Horror",
+            "halloween": "0",
+            "plot": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+            "Movie_DB_API_ID": "tt0081505",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Silence of the Lambs",
+            "year": "1991",
+            "genre1": "Crime",
+            "genre2": "Drama",
+            "halloween": "0",
+            "plot": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+            "Movie_DB_API_ID": "tt0102926",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Sixth Sense",
+            "year": "1999",
+            "genre1": "Drama",
+            "genre2": "Mystery",
+            "halloween": "0",
+            "plot": "A boy who communicates with spirits seeks the help of a disheartened child psychologist.",
+            "Movie_DB_API_ID": "tt0167404",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMWM4NTFhYjctNzUyNi00NGMwLTk3NTYtMDIyNTZmMzRlYmQyXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Texas Chainsaw Massacre",
+            "year": "1974",
+            "genre1": "Horror",
+            "halloween": "0",
+            "plot": "After picking up a traumatized young hitchhiker, five friends find themselves stalked and hunted by a deformed chainsaw-wielding loon and his family of equally psychopathic killers.",
+            "Movie_DB_API_ID": "tt0324216",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BZDg2NDJkOGYtMjM3My00Mzc2LWJiYjktODFlMzBjNmQwMTEyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Thing",
+            "year": "1982",
+            "genre1": "Horror",
+            "genre2": "Mystery",
+            "halloween": "1",
+            "plot": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
+            "Movie_DB_API_ID": "tt0084787",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BNGViZWZmM2EtNGYzZi00ZDAyLTk3ODMtNzIyZTBjN2Y1NmM1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Thing from Another World",
+            "year": "1951",
+            "genre1": "Horror",
+            "genre2": "Sci-Fi",
+            "halloween": "1",
+            "plot": "Scientists and American Air Force officials fend off a bloodthirsty alien organism while at a remote arctic outpost.",
+            "Movie_DB_API_ID": "tt0044121",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BODA5MjE1MTY2Ml5BMl5BanBnXkFtZTgwNzU5MjQxMDE@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Watcher in the Woods",
+            "year": "1980",
+            "genre1": "Family",
+            "genre2": "Horror",
+            "halloween": "1",
+            "plot": "When a family moves to a country home, the young girls experience strange happenings that have a link to an occult event years past.",
+            "Movie_DB_API_ID": "tt0081738",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTcwZjU4M2QtZTVlNy00NzY1LWEwZjEtYjFhODZmYTk5N2Q2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Wicker Man",
+            "year": "1973",
+            "genre1": "Horror",
+            "genre2": "Mystery",
+            "halloween": "1",
+            "plot": "A puritan Police Sergeant arrives in a Scottish island village in search of a missing girl who the locals claim never existed.",
+            "Movie_DB_API_ID": "tt0070917",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BOWIzY2QyNDQtOWI3Ni00MjEwLTlhYTgtZTgyMThiY2JkMTY4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Witches",
+            "year": "1990",
+            "genre1": "Adventure",
+            "genre2": "Comedy",
+            "halloween": "1",
+            "plot": "A young boy stumbles onto a witch convention and must stop them, even after he has been turned into a mouse.",
+            "Movie_DB_API_ID": "tt0100944",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMjI1MDg5NzAyMV5BMl5BanBnXkFtZTgwNzU5Mzk4NjE@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Witches of Eastwick",
+            "year": "1987",
+            "genre1": "Comedy",
+            "genre2": "Fantasy",
+            "halloween": "1",
+            "plot": "Three single women in a picturesque village have their wishes granted, at a cost, when a mysterious and flamboyant man arrives in their lives.",
+            "Movie_DB_API_ID": "tt0094332",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BYTA4ZGRlNDEtNDliMi00NmI0LThlYjctYmViMjI0MDlmOWU2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Wolf Man",
+            "year": "1941",
+            "genre1": "Horror",
+            "halloween": "0",
+            "plot": "A practical man is infected with a horrific disease his disciplined mind tells him cannot possibly exist.",
+            "Movie_DB_API_ID": "tt0034398",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BODRmMDBjMTYtZmJiZi00Mzk3LWFhZDAtMDExNDFhMWQzNzEyXkEyXkFqcGdeQXVyNDY2MTk1ODk@._V1_SX300.jpg"
+        },
+        {
+            "title": "The Worst Witch",
+            "year": "1986",
+            "genre1": "Comedy",
+            "genre2": "Family",
+            "halloween": "1",
+            "plot": "Mildred Hubble (Fairuza Balk) is one of the young girls at a prestigious witch academy. She can't seem to do anything right and is picked on by classmates and teachers. The headmistress of ...",
+            "Movie_DB_API_ID": "tt0092239",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMjE5MTk5OTI5MF5BMl5BanBnXkFtZTcwNjE5NzYyMQ@@._V1_SX300.jpg"
+        },
+        {
+            "title": "Witchfinder General",
+            "year": "1968",
+            "genre1": "Comedy",
+            "genre2": "Drama",
+            "halloween": "0",
+            "plot": "A young soldier seeks to put an end to the evils caused by a vicious witch-hunter when the latter terrorizes his fiancée and kills her uncle.",
+            "Movie_DB_API_ID": "tt0063285",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTk1OTMyMDctNTU1Ni00MDk2LTlmMWEtOTFjNDZlNzViN2M1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "title": "Young Frankenstein",
+            "year": "1978",
+            "genre1": "Adventure",
+            "halloween": "1",
+            "plot": "An American grandson of the infamous scientist, struggling to prove that his grandfather was not as insane as people believe, is invited to Transylvania, where he discovers the process that reanimates a dead body.",
+            "Movie_DB_API_ID": "tt0072431",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTEwNjg2MjM2ODFeQTJeQWpwZ15BbWU4MDQ1MDU5OTEx._V1_SX300.jpg"
+        },
+        {
+            "title": "Zombieland",
+            "year": "2009",
+            "genre2": "Comedy",
+            "halloween": "1",
+            "plot": "A shy student trying to reach his family in Ohio, a gun-toting tough guy trying to find the last Twinkie, and a pair of sisters trying to get to an amusement park join forces to travel across a zombie-filled America.",
+            "Movie_DB_API_ID": "tt1156398",
+            "posterImg": "https://m.media-amazon.com/images/M/MV5BMTU5MDg0NTQ1N15BMl5BanBnXkFtZTcwMjA4Mjg3Mg@@._V1_SX300.jpg"
+        }
+    ]
+}
+          
