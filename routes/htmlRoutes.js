@@ -16,12 +16,24 @@ module.exports = function (app) {
 
   // Load movieDetailsPage
   app.get('/moviedetailspage/:id', function (req, res) {
+    const responseObj = {};
     db.Movie.findOne({
       where: {
         id: req.params.id,
       },
-    }).then(function (results) {
-      res.render('moviedetailspage', results);
+    }).then(function (movieResults) {
+      responseObj.movie = movieResults.dataValues;
+      db.UserReview.findAll({
+        where: {
+          movieId: req.params.id,
+        },
+      }).then(function (userRevResults) {
+        console.log('USER REVIEW RESULTS');
+        console.log(userRevResults);
+        responseObj.reviews = userRevResults[0].dataValues;
+        console.log('responseObj', responseObj);
+        res.render('moviedetailspage', responseObj);
+      });
     });
   });
 

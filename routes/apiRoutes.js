@@ -4,18 +4,7 @@ const passport = require('../middleware/passport');
 // const { Op } = require('sequelize');
 
 module.exports = function (app) {
-  // login exisiting user
-  // app.post("/api/login", function (req, res) {
-  //     db.user.findOne({
-  //         where: {
-  //             username: req.body.username
-  //         }
-  //     }).then(function (dbUser) {
-  //         if(!dbUser) {
-  //             return
-  //         }
-  //     })
-  // })
+  
   app.post('/api/login', passport.authenticate('local'), function (req, res) {
     res.json(req.user);
   });
@@ -48,7 +37,7 @@ module.exports = function (app) {
   app.post('/api/review/:id', function (req, res) {
     db.UserReview.create({
       textReview: req.body.reviewText,
-      spookyRating: 3, //TODO - after moviedetailspage.handlebars is updated, replace this with req.body.spookyRating
+      spookyRating: req.body.spookyRating, 
       MovieId: req.params.id,
       userId: null, //TODO - add a user ID if we feel like it
     }).then(function () {
@@ -59,10 +48,10 @@ module.exports = function (app) {
       }).then(function (result) {
         numReviews = parseFloat(result.dataValues.numReviews);
         let newSpookyRating =
-          (parseFloat(result.dataValues.spookyRating) *
-            parseFloat(result.dataValues.numReviews) +
-            3) /
-          (parseFloat(result.dataValues.numReviews) + 1); //TODO - fix the spooky rating here - it should'nt be 3
+          ((parseFloat(result.dataValues.spookyRating) *
+            parseFloat(result.dataValues.numReviews)) +
+            parseFloat(req.body.spookyRating)) /
+          (parseFloat(result.dataValues.numReviews) + 1); 
         let newNumReviews = result.numReviews + 1;
         result
           .update(
