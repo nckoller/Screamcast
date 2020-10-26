@@ -1,25 +1,26 @@
 html {
   padding: 0 1em;
-  font-family: 'Creepster', cursive;
+  font-family: "Creepster", cursive;
   font-size: large;
 }
 
 h1.movieInfo.text-glow {
-  font-family: 'Creepster', cursive;
+  font-family: "Creepster", cursive;
   text-shadow: 1px 1px 15px white;
 }
 
 table {
-  font-family: 'Creepster', cursive;
+  font-family: "Creepster", cursive;
   font-size: large;
 }
 body {
   margin: auto;
-  background-color: #623baa;
-  background-image: url('Scarytree.png');
+  background-color: #7e54cb;
+  background-image: url("Scarytree.png");
   background-position: right;
   background-repeat: no-repeat;
   margin-left: 650px;
+  margin-top: 800px;
 }
 
 img {
@@ -43,14 +44,14 @@ img {
 
   /* clearfix for fallback */
   .image-left::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
   }
 }
 
 h4 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: medium;
   color: black;
 }
@@ -62,5 +63,5 @@ h4 {
 
 .form-button {
   color: #25c570;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
