@@ -13,4 +13,7 @@ body {
   margin: auto;
   max-width: 42em;
   background-image: url("spiders\ \(1\).gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #182725;
 }
