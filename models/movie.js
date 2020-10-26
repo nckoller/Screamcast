@@ -22,6 +22,14 @@ module.exports = function (sequelize, DataTypes) {
     halloween: {
       type: DataTypes.BOOLEAN,
     },
+    plot: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    numReviews: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
     Movie_DB_API_ID: {
       type: DataTypes.STRING,
     },
@@ -32,21 +40,15 @@ module.exports = function (sequelize, DataTypes) {
       type: DataTypes.DECIMAL(1, 1),
       allowNull: true,
     },
-    numReview: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-    },
-    plot: {
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
     createdAt: {
       type: DataTypes.DATE,
       allowNull: true,
+      defaultValue: Date.now,
     },
     updatedAt: {
       type: DataTypes.DATE,
       allowNull: true,
+      defaultValue: Date.now,
     },
   });
 
