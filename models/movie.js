@@ -37,7 +37,7 @@ module.exports = function (sequelize, DataTypes) {
       type: DataTypes.STRING,
     },
     spookyRating: {
-      type: DataTypes.DECIMAL(1, 1),
+      type: DataTypes.DECIMAL(10, 1),
       allowNull: true,
     },
     createdAt: {

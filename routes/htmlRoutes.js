@@ -1,6 +1,7 @@
 // Requiring path to use relative routes to our HTML files
 const path = require('path');
 const db = require('../models');
+const { Op } = require('sequelize');
 
 module.exports = function (app) {
   // Load index page
@@ -26,8 +27,21 @@ module.exports = function (app) {
 
   // Load spooky move list
   app.get('/spookymovies', function (req, res) {
+      db.Movie.findAll({
+        where: {
+          spookyRating: {
+            [Op.between]: [3, 5],
+          },
+        },
+    }).then(function (results) {
+        console.log(results)
+        let responseData = {};
+        responseData.movies = results;
+        responseData.spooky = true;
+        console.log(responseData.movies[1].dataValues);
+        res.render('movie-list', responseData);
+      });
     // res.json({spooky: true})
-    res.render('movie-list', { spooky: true });
   });
 
   // Load halloween movie list
@@ -45,7 +59,7 @@ module.exports = function (app) {
       let responseData = {};
       responseData.movies = results;
       responseData.halloween = true;
-      console.log(responseData.movies[1].dataValues);
+    //   console.log(responseData.movies[1].dataValues);
       res.render('movie-list', responseData);
     });
   });
