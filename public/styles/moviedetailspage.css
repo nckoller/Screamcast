@@ -18,6 +18,8 @@ body {
   background-color: #623baa;
   background-image: url("Scarytree.png");
   background-position: right;
+  background-repeat: no-repeat;
+  margin-left: 650px;
 }
 
 img {
@@ -50,7 +52,7 @@ img {
 h4 {
   font-family: "Courier New", Courier, monospace;
   font-size: medium;
-  color: ;
+  color: black;
 }
 @media (min-width: 30em) {
   .image-left img {
