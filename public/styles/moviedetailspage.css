@@ -9,9 +9,13 @@ h1.movieInfo.text-glow {
   text-shadow: 1px 1px 15px white;
 }
 
+table {
+  font-family: "Creepster", cursive;
+  font-size: large;
+}
 body {
   margin: auto;
-  background-color: #452a79;
+  background-color: #623baa;
   background-image: url("Scarytree.png");
   background-position: right;
 }
@@ -43,6 +47,11 @@ img {
   }
 }
 
+h4 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  color: ;
+}
 @media (min-width: 30em) {
   .image-left img {
     flex-shrink: 0;
@@ -50,9 +59,6 @@ img {
 }
 
 .form-button {
-  color: green;
-}
-
-.table {
-  border-color: purple;
+  color: #25c570;
+  font-family: "Courier New", Courier, monospace;
 }
