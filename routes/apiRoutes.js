@@ -48,9 +48,9 @@ module.exports = function (app) {
       }).then(function (result) {
         numReviews = parseFloat(result.dataValues.numReviews);
         let newSpookyRating =
-          (parseFloat(result.dataValues.spookyRating) *
-            parseFloat(result.dataValues.numReviews) +
-            req.body.spookyRating) /
+          ((parseFloat(result.dataValues.spookyRating) *
+            parseFloat(result.dataValues.numReviews)) +
+            parseFloat(req.body.spookyRating)) /
           (parseFloat(result.dataValues.numReviews) + 1); 
         let newNumReviews = result.numReviews + 1;
         result

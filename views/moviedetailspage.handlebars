@@ -13,27 +13,27 @@
     </h1>
   </div>
   <div class="image-left">
-    <img src={{dataValues.posterImg}} alt="Movie Poster" />
+    <img src={{movie.posterImg}} alt="Movie Poster" />
     <div class="movie details">
 
       <div class="table">
         <table>
           <tr>
             <td>Title:</td>
-            <td>{{dataValues.title}}</td>
+            <td>{{movie.title}}</td>
           <tr>
             <td>Spooky Rating:</td>
-            <td>{{dataValues.spookyRating}}</td>
+            <td>{{movie.spookyRating}}</td>
           <tr>
             <td>Genre:</td>
-            <td>{{dataValues.genre1}} {{dataValues.genre2}}</td>
+            <td>{{movie.genre1}} {{movie.genre2}}</td>
           <tr>
             <td>Plot Summary:</td>
-            <td>{{dataValues.plot}}</td>
+            <td>{{movie.plot}}</td>
         </table>
       </div>
 
-      <form action="/api/review/{{dataValues.id}}" method="POST">
+      <form action="/api/review/{{movie.id}}" method="POST">
         <div class="form-group">
           <label for="user-review">Leave Your Review:</label>
           {{! 'name ='' needed for js to run, DO NOT CHANGE }}
@@ -56,10 +56,12 @@
       </form>
 
       <div data-spy="scroll" data-target="#list" data-offset="0" class="scrollspy">
-        <h4 id="review-1">User Review:</h4>
-        <p>{{!user-review-1}}</p>
-        <h4 id="review-2">User Review:</h4>
-        <p>{{!user-review-2}}</p>
+        <h4 id="review-1">User Reviews:</h4>
+        <p>{{reviews.textReview}}</p>
+        <p>Spooky Rating: {{reviews.spookyRating}}{{!user-review-1}}</p>
+        {{!-- <h4 id="review-2">User Review:</h4> --}}
+        {{!-- <p>{{!user-review-2}}</p> --}}
+        {{!-- <span>{{reviews.textReview}} Spooky Rating: {{reviews.spookyRating}}</span> --}}
       </div>
     </div>
     <script type="text/javascript" async src="/js/moviedetailspage.js"></script>
