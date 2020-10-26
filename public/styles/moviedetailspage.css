@@ -12,6 +12,8 @@ h1.movieInfo.text-glow {
 body {
   margin: auto;
   background-color: #452a79;
+  background-image: url("Scarytree.png");
+  background-position: right;
 }
 
 img {
