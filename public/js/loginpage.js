@@ -36,7 +36,7 @@ $(document).ready(function () {
         window.location.replace('/');
       })
       .catch(function (err) {
-        // display some sort of error?
+        console.log(err);
       });
   }
 });

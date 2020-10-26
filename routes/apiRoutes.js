@@ -1,5 +1,6 @@
 // Requiring our models
 const db = require('../models');
+const { Op } = require('sequelize');
 
 // const passport = require("../config/passport");
 
@@ -57,18 +58,43 @@ module.exports = function (app) {
   app.post('/api/review/:id', function (req, res) {
     db.UserReview.create({
       textReview: req.body.reviewText,
-      spookyRating: 5, //TODO - after moviedetailspage.handlebars is updated, replace this with req.body.spookyRating
-      movieId: req.params.movieId,
-      userId: 1, //TODO - figure this out
+      spookyRating: 3, //TODO - after moviedetailspage.handlebars is updated, replace this with req.body.spookyRating
+      MovieId: req.params.id,
+      userId: null, //TODO - add a user ID if we feel like it
     }).then(function () {
       db.Movie.findOne({
         where: {
-          id: req.body.id,
+          id: req.params.id,
         },
-      }).then(function (results) {
-        console.log(results);
-        res(200);
+      }).then(function (result) {
+        numReviews = parseFloat(result.dataValues.numReviews);
+        let newSpookyRating =
+          (parseFloat(result.dataValues.spookyRating) *
+            parseFloat(result.dataValues.numReviews) +
+            3) /
+          (parseFloat(result.dataValues.numReviews) + 1); //TODO - fix the spooky rating here - it should'nt be 3
+        let newNumReviews = result.numReviews + 1;
+        result
+          .update(
+            {
+              spookyRating: newSpookyRating,
+              numReviews: newNumReviews,
+            },
+            {
+              where: {
+                id: result.id,
+              },
+            }
+          )
+          .then(function (result) {
+            console.log('movie updated with new review');
+          })
+          .catch(function (err) {
+            console.log(err);
+          });
       });
     });
   });
 };
+
+
