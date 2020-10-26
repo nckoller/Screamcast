@@ -1,7 +1,5 @@
 const { Sequelize } = require('.');
 
-const { Sequelize } = require('.');
-
 module.exports = function (sequelize, DataTypes) {
   const Movie = sequelize.define('Movie', {
     // Movie Title cannot be null
