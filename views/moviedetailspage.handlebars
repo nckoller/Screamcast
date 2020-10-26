@@ -1,10 +1,13 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <link rel="stylesheet" type="text/css" href="styles/moviedetailspage.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/moviedetailspage.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -57,8 +60,16 @@
 
       <div data-spy="scroll" data-target="#list" data-offset="0" class="scrollspy">
         <h4 id="review-1">User Reviews:</h4>
-        <p>{{reviews.textReview}}</p>
-        <p>Spooky Rating: {{reviews.spookyRating}}{{!user-review-1}}</p>
+        <ul>
+          {{#each reviews}}
+                    <li>"{{this.dataValues.textReview}}" Spooky Rating: {{this.dataValues.spookyRating}}</li>
+
+          {{/each}}
+
+
+        </ul>
+        {{!-- <p>{{reviews}}</p> --}}
+        {{!-- <p>Spooky Rating: {{reviews}}{{!user-review-1}}</p> --}}
         {{!-- <h4 id="review-2">User Review:</h4> --}}
         {{!-- <p>{{!user-review-2}}</p> --}}
         {{!-- <span>{{reviews.textReview}} Spooky Rating: {{reviews.spookyRating}}</span> --}}
