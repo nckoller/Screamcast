@@ -36,22 +36,21 @@
       <form action="/api/review/{{dataValues.id}}" method="POST">
         <div class="form-group">
           <label for="user-review">Leave Your Review:</label>
-          <textarea class="formcontrol" id="user-review" name="reviewText" rows="20" cols="40"></textarea>
+          <textarea class="form-control" id="user-review" name="reviewText" rows="2"></textarea>
 
-          <div class="dropdown">Spooky Rating:
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">1 = Not Spooky</button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="rating-1" href="#">1 = Not Spooky</a>
-              <a class="rating-2" href="#">2 = Somewhat Spooky</a>
-              <a class="rating-3" href="#">3 = Spooky</a>
-              <a class="rating-4" href="#">4 = Pretty Spooky</a>
-              <a class="rating-5" href="#">5 = Very Spooky</a>
-            </div>
+          <div>
+            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Spooky Rating</label>
+            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+              <option selected>Choose...</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <input class="submit" type="submit" value="Submit">
+            {{!-- TODO: create formcontrol div for spookyRating - please use 'name=spookyRating' --}}
           </div>
-          <input class="submit" type="submit" value="Submit">
-          {{!-- TODO: create formcontrol div for spookyRating - please use 'name=spookyRating' --}}
-        </div>
       </form>
 
       <div data-spy="scroll" data-target="#list" data-offset="0" class="scrollspy">
