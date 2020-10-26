@@ -1,7 +1,7 @@
 // Requiring necessary npm packages
 const express = require('express');
-
-// const session = require('express-session');
+const session = require('express-session');
+const passport = require('./middleware/passport');
 
 // Setting up port and requiring models for syncing
 const PORT = process.env.PORT || 8080;
@@ -14,16 +14,15 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // If we need to use sessions to keep track of our user's login status
-// app.use(
-//   session({ secret: 'keyboard cat', resave: true, saveUninitialized: true })
-// );
-// app.use(passport.initialize());
-// app.use(passport.session());
+app.use(
+  session({ secret: 'keyboard cat', resave: true, saveUninitialized: true })
+);
+app.use(passport.initialize());
+app.use(passport.session());
 
 // Requiring our routes
 require('./routes/htmlRoutes.js')(app);
 require('./routes/apiRoutes.js')(app);
-
 
 // db.User.create({
 //     username: "testUser1",
@@ -33,7 +32,6 @@ require('./routes/apiRoutes.js')(app);
 // }).catch(function(err) {
 //     console.log(err, "failure");
 // });
-
 
 // Set Handlebars
 const expressHandlebars = require('express-handlebars');
@@ -50,4 +48,3 @@ db.sequelize.sync().then(function () {
     );
   });
 });
-

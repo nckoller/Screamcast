@@ -1,29 +1,48 @@
-const LocalStrategy = require('passport-local').Strategy
-const bcrypt = require('bcryptjs')
+const passport = require("passport");
+const LocalStrategy = require("passport-local").Strategy;
 
-function initialize(passport) {
-    const authenticateUser = () => (username, password, done) => {
-        const user = getByUsername(username)
-        if (user == null) {
-            return done(null, false, {message: 'No user with that username'})
-        }
+const db = require("../models");
 
-        try {
-            if (await bcrypt.compare(password, user.password)) {
+// Telling passport we want to use a Local Strategy-- we want login with a username and password
+passport.use(new LocalStrategy(
+  // Our user will sign in using a username
+  {
+    usernameField: "username"
+  },
+  function(username, password, done) {
+    // When a user tries to sign in this code runs
+    db.User.findOne({
+      where: {
+        username: username
+      }
+    }).then(function(dbUser) {
+      // If there's no user with the given username
+      if (!dbUser) {
+        return done(null, false, {
+          message: "Incorrect username."
+        });
+      }
+      // If there is a user with the given username, but the password the user gives us is incorrect
+      else if (!dbUser.validPassword(password)) {
+        return done(null, false, {
+          message: "Incorrect password."
+        });
+      }
+      // If none of the above, return the user
+      return done(null, dbUser);
+    });
+  }
+));
 
-            } else {
-                return done(null, false, { message: 'Password incorrect' })
-            }
-        } catch (e) {
-            return done(e)
-        }
+// In order to help keep authentication state across HTTP requests,
+// Sequelize needs to serialize and deserialize the user
+passport.serializeUser(function(user, cb) {
+  cb(null, user);
+});
 
-    }
-    passport.use(new LocalStrategy({ usernameField: 'username' }),
-    authenticateUser)
+passport.deserializeUser(function(obj, cb) {
+  cb(null, obj);
+});
 
-    passport.serializeUser((user, done) => { })
-    passport.deserializeUser((id, done) => { })
-}
-
-module.exports = initialize;
+// Exporting our configured passport
+module.exports = passport;

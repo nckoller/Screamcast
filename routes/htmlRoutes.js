@@ -27,28 +27,23 @@ module.exports = function (app) {
 
   // Load spooky move list
   app.get('/spookymovies', function (req, res) {
-      db.Movie.findAll({
-        where: {
-          spookyRating: {
-            [Op.between]: [3, 5],
-          },
+    db.Movie.findAll({
+      where: {
+        spookyRating: {
+          [Op.between]: [3, 5],
         },
+      },
     }).then(function (results) {
-        console.log(results)
-        let responseData = {};
-        responseData.movies = results;
-        responseData.spooky = true;
-        console.log(responseData.movies[1].dataValues);
-        res.render('movie-list', responseData);
-      });
+      console.log(results);
+      let responseData = {};
+      responseData.movies = results;
+      responseData.spooky = true;
+      console.log(responseData.movies[1].dataValues);
+      res.render('movie-list', responseData);
+    });
     // res.json({spooky: true})
   });
 
-  // Load halloween movie list
-  //   app.get('/halloweenmovies', function (req, res) {
-  //     // res.json({spooky: true})
-  //     res.render('movie-list', { halloween: true });
-  //   });
   // Load halloween movie list
   app.get('/halloweenmovies', function (req, res) {
     db.Movie.findAll({
@@ -59,7 +54,7 @@ module.exports = function (app) {
       let responseData = {};
       responseData.movies = results;
       responseData.halloween = true;
-    //   console.log(responseData.movies[1].dataValues);
+      //   console.log(responseData.movies[1].dataValues);
       res.render('movie-list', responseData);
     });
   });
