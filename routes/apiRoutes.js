@@ -1,8 +1,7 @@
 // Requiring our models
 const db = require('../models');
-const { Op } = require('sequelize');
-
-// const passport = require("../config/passport");
+const passport = require('../middleware/passport');
+// const { Op } = require('sequelize');
 
 module.exports = function (app) {
   // login exisiting user
@@ -17,30 +16,21 @@ module.exports = function (app) {
   //         }
   //     })
   // })
-
-  // When the user wants to view a list of Spooky Movies
-  app.get('/api/spooky', function (req, res) {
-    db.Movie.findAll({
-      where: {
-        spookyRating: {
-          [Op.between]: [3, 5],
-        },
-      },
-    }).then(function (results) {
-      console.log(results);
-      res.json(results);
-    });
+  app.post('/api/login', passport.authenticate('local'), function (req, res) {
+    res.json(req.user);
   });
 
-  // When the user requests to view Halloween Movies
-  app.get('/api/halloween', function (req, res) {
-    db.Movie.findAll({
-      where: {
-        halloween: 1,
-      },
-    }).then(function (results) {
-      res.json(results);
-    });
+  app.post('/api/signup', function (req, res) {
+    db.User.create({
+      username: req.body.username,
+      password: req.body.password,
+    })
+      .then(function () {
+        res.redirect(307, '/api/login');
+      })
+      .catch(function (err) {
+        res.status(401).json(err);
+      });
   });
 
   //   Movie details
@@ -97,4 +87,27 @@ module.exports = function (app) {
   });
 };
 
+// When the user wants to view a list of Spooky Movies
+//   app.get('/api/spooky', function (req, res) {
+//     db.Movie.findAll({
+//       where: {
+//         spookyRating: {
+//           [Op.between]: [3, 5],
+//         },
+//       },
+//     }).then(function (results) {
+//       console.log(results);
+//       res.json(results);
+//     });
+//   });
 
+// When the user requests to view Halloween Movies
+//   app.get('/api/halloween', function (req, res) {
+//     db.Movie.findAll({
+//       where: {
+//         halloween: 1,
+//       },
+//     }).then(function (results) {
+//       res.json(results);
+//     });
+//   });
