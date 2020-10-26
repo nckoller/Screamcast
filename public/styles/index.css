@@ -4,10 +4,23 @@
   display: inline;
 }
 
-.action_btn {
+.action_btn spooky {
   width: 200px;
   margin: 0 auto;
   display: inline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  color: #61b880;
+}
+
+.action_btn halloween {
+  width: 200px;
+  margin: 0 auto;
+  display: inline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  color: #61b880;
+  margin-right: -300px;
 }
 body {
   margin: auto;
@@ -16,4 +29,6 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #182725;
+  margin-left: 500px;
+  margin-top: 600px;
 }
