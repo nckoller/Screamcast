@@ -24,15 +24,6 @@ app.use(passport.session());
 require('./routes/htmlRoutes.js')(app);
 require('./routes/apiRoutes.js')(app);
 
-// db.User.create({
-//     username: "testUser1",
-//     password: "testPassword1"
-// }).then(function() {
-//     console.log("Check the DB");
-// }).catch(function(err) {
-//     console.log(err, "failure");
-// });
-
 // Set Handlebars
 const expressHandlebars = require('express-handlebars');
 app.engine('handlebars', expressHandlebars({ defaultLayout: 'main' }));

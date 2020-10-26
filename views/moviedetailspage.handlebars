@@ -36,11 +36,13 @@
       <form action="/api/review/{{dataValues.id}}" method="POST">
         <div class="form-group">
           <label for="user-review">Leave Your Review:</label>
+          {{! 'name ='' needed for js to run, DO NOT CHANGE }}
           <textarea class="form-control" id="user-review" name="reviewText" rows="2"></textarea>
 
           <div>
             <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Spooky Rating</label>
-            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+            {{! 'name ='' needed for js to run, DO NOT CHANGE }}
+            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" name="spookyRating">
               <option selected>Choose...</option>
               <option value="1">1</option>
               <option value="2">2</option>
