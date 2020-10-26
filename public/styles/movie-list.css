@@ -2,5 +2,7 @@
   background-image: url("movielist.gif");
 }
 
-
+head {
+  font-family: "Creepster", cursive;
+  font-size: 24px;
 }
