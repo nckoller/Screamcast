@@ -5,9 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Results</title>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <link rel="stylesheet" type="text/css" href="movie-list.css"/>
     <link rel="stylesheet" type="text/css" href="styles/movie-list.css" />
 </head>
 
+<!--results page-->
+<!--IF they click spooky, THEN they will get this result-->
+{{#if spooky}}
+    {{> }}
+    <button>Details</button>
+{{#if}}
+<!--IF they click halloween, THEN they will get this result-->
+{{#if halloween}}
+    {{> }}
+     <button>Details</button>
+{{#if}}
 <body>
     <div class="movie-list-title">
         <h1>{{#if spooky}} Spooky {{else}} Halloween {{/if}}Movies</h1>
