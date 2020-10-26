@@ -32,8 +32,12 @@ module.exports = function (sequelize, DataTypes) {
       type: DataTypes.DECIMAL(1, 1),
       allowNull: true,
     },
+    numReview: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
     plot: {
-      type:DataTypes.STRING,
+      type: DataTypes.STRING,
       allowNull: true,
     },
     createdAt: {

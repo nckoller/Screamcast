@@ -65,10 +65,17 @@ module.exports = function (app) {
         where: {
           id: req.body.id,
         },
-      }).then(function (results) {
+      }).then(function (data, ) {
+        res.json(data);
         console.log(results);
         res(200);
       });
     });
   });
 };
+
+// query for movie,
+// multiply spookyRating by numReview = newVar
+// Add +1 to numReview.
+// Add incoming spookyRating to newVar,
+// divide by numReview
