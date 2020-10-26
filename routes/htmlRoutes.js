@@ -30,7 +30,8 @@ module.exports = function (app) {
       }).then(function (userRevResults) {
         console.log('USER REVIEW RESULTS');
         console.log(userRevResults);
-        responseObj.reviews = userRevResults[0].dataValues;
+        // responseObj.reviews = JSON.stringify(userRevResults);
+        responseObj.reviews = userRevResults;
         console.log('responseObj', responseObj);
         res.render('moviedetailspage', responseObj);
       });
