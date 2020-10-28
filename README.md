@@ -5,7 +5,6 @@
 
 Screamcast is a database of Halloween movies where users can create an account, find lists of scary or Halloween themed movies, and leave reviews. For the reviews, users can rate each movie for how spooky it is. The average user rating is displayed, as well as individual reviews from users. 
 
-
 ## Table of Contents
 
 1. [Usage](#usage)
@@ -33,4 +32,5 @@ This website is a work in progress and contributions are welcome. Please create 
 ## Questions
 
 If you have further questions, please email me at nckoller@gmail.com.
+
 
